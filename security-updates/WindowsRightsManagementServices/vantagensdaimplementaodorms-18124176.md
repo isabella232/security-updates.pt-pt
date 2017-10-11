@@ -1,0 +1,60 @@
+---
+TOCTitle: Vantagens da Implementação do RMS
+Title: Vantagens da Implementação do RMS
+ms:assetid: 'cab5c3ce-c9e8-4fae-915b-dd4829357333'
+ms:contentKeyID: 18124176
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747668(v=WS.10)'
+---
+
+Vantagens da Implementação do RMS
+=================================
+
+Organizações de todas as dimensões são desafiadas a proteger informações digitais valiosas contra utilizações abusivas e maliciosas. O aumento do roubo de informações e o aparecimento de novos requisitos legais de protecção de dados vêm realçar ainda mais a necessidade de proteger de forma mais eficaz todo o conteúdo digital. A utilização crescente de computadores para criar e trabalhar com este tipo de informações confidenciais, a introdução de uma conectividade ampla a redes privadas e públicas (incluindo a Internet) e o aparecimento de dispositivos cada vez mais potentes, tornaram o problema da protecção dos dados de uma organização numa questão de segurança vital.
+
+Os vários tipos de conteúdo digital podem incluir relatórios dinâmicos de bases de dados num portal de informações, mensagens de correio electrónico confidenciais, documentos de planeamento estratégico, relatórios de defesa militar, bem como outros documentos estatais confidenciais. Esta secção descreve alguns dos motivos básicos que conduzem à implementação do RMS para oferecer protecção de conteúdo.
+
+Esta secção trata de:
+
+-   [Informações Organizacionais Vulneráveis](#bkmk_2)
+-   [Segurança de Rede Melhorada](#bkmk_3)
+-   [Protecção Melhorada para Conteúdo Digital](#bkmk_4)
+
+<span id="BKMK_2"></span>
+Informações Organizacionais Vulneráveis
+---------------------------------------
+
+As organizações criam e utilizam uma grande variedade de conteúdos valiosos que pretendem e necessitam proteger. A lista seguinte fornece exemplos do conteúdo que pode proteger com o RMS:
+
+-   Informações e ficheiros digitais tradicionais. Exemplos típicos de informações e ficheiros digitais tradicionais são as comunicações por correio electrónico, documentos relativos a projectos, relatórios confidenciais, planos de marketing e apresentações de produtos. As pessoas que trabalham com este tipo de informações partilham regularmente os respectivos ficheiros através de mensagens de correio electrónico, programas de conferência, partilha de discos e sistemas baseados num servidor ou ponto-a-ponto. Esta categoria também inclui outro tipo de conteúdo confidencial, como, por exemplo, as revisões do desempenho dos empregados de uma empresa e registos pessoais que os utilizadores pretendam ou necessitem de manter num estado que garanta um acesso rápido e seguro.
+-   Informações organizacionais proprietárias. Os quadros superiores de uma empresa utilizam este tipo de informações para administrar, controlar e dirigir as actividades da organização. Este tipo de conteúdo proprietário pode incluir relatórios sobre as vendas e as quotas de mercado, informações relativas ao desempenho financeiro, bem como previsões e panorâmicas gerais estratégicas. A incorrecta distribuição ou utilização deste tipo de conteúdo pode prejudicar gravemente uma empresa, seja em termos da concorrência, seja pelo facto de lhe poderem ser interpostas acções judiciais.
+
+A implementação do RMS pode ser uma parte importante de uma estratégia de segurança para protecção deste conteúdo vulnerável.
+
+<span id="BKMK_3"></span>
+Segurança de Rede Melhorada
+---------------------------
+
+A protecção de conteúdo digital é uma tarefa difícil e contínua. De um modo geral, as organizações protegem as suas informações e ficheiros digitais utilizando medidas de segurança instaladas no perímetro. Os “firewalls” podem limitar o acesso à rede de uma empresa e as listas de controlo de acesso discricionário (DACLs) permitem restringir o acesso a dados específicos. Além disso, as organizações também podem utilizar produtos e tecnologias de encriptação e autenticação (tais como a infra-estrutura de chaves públicas \[PKI\] e Kerberos) para ajudar a proteger mensagens de correio electrónico em trânsito e assegurar que os respectivos destinatários sejam os primeiros a abri-las.
+
+Estes métodos ajudam as organizações a controlar o acesso a conteúdos reservados. Contudo, os destinatários continuam a ter toda a liberdade para utilizarem o conteúdo que recebem da forma que melhor entenderem. Depois de o utilizador ser autenticado e de o conteúdo ser desencriptado, não existem quaisquer restrições que controlem o que pode ser feito com o conteúdo, nem os locais para onde ele pode ser enviado. É impossível às medidas de segurança instaladas no perímetro imporem o cumprimento de regras da empresa para controlo da forma como as pessoas utilizam e distribuem o conteúdo fora do perímetro da rede ou depois de este ter sido violado.
+
+Se contar apenas com a discrição e a responsabilidade das pessoas para garantir a forma como o conteúdo digital é partilhado e utilizado, este modelo de segurança de rede poderá apresentar um grau de risco inaceitável. Bastará qualquer quebra acidental da segurança para causar problemas graves. Por exemplo, os utilizadores podem reencaminhar por engano mensagens de correio electrónico ou documentos reservados para pessoas que possam ter intenções dolosas.
+
+Para além das ameaças de roubo e de utilização abusiva, é cada vez maior a lista de requisitos legislativos que vem avolumar a tarefa contínua de protecção do conteúdo digital. Por exemplo, muitas organizações têm de obedecer a regras de divulgação de códigos da Securities and Exchange Commission (SEC), que abordam a questão da divulgação selectiva de certas informações a investidores internos. De modo semelhante, os sectores financeiro, governamental, da saúde e legislativo necessitam cada vez mais de proteger adequadamente os respectivos conteúdos digitais devido a novas normas legislativas.
+
+Sem uma solução de software ponto-a-ponto, como o RMS, que controle eficazmente a utilização do conteúdo digital independentemente das origens e destinos, o conteúdo pode ser recebido pelo destinatário errado de forma maliciosa ou acidental.
+
+<span id="BKMK_4"></span>
+Protecção Melhorada para Conteúdo Digital
+-----------------------------------------
+
+É necessário proteger melhor o conteúdo digital. Embora nenhuma forma de informação possa ser alguma vez totalmente invulnerável a uma utilização não autorizada e não exista nenhum meio de proteger os dados contra utilizações indevidas, a melhor defesa consiste numa solução abrangente que proteja todas as informações.
+
+Como parte essencial da estratégia de segurança de uma organização, uma solução que vise melhorar a protecção das informações deve proporcionar os meios que permitam controlar a forma como o conteúdo é utilizado e distribuído, não se limitando a um simples controlo do acesso. Uma solução que vise melhorar a protecção das informações deve ajudar a:
+
+-   Proteger os registos e documentos da organização na intranet da empresa, bem como evitar a partilha com utilizadores não autorizados.
+-   Assegurar a protecção do conteúdo, nomeadamente contra adulterações.
+-   Fazer expirar o conteúdo, com base em requisitos de tempo, sempre que apropriado, mesmo quando esse conteúdo é enviado através de uma extranet para outras organizações.
+-   Exigir uma inspecção ou auditoria para identificação dos indivíduos que tiveram acesso e utilizaram o conteúdo.
+
+O RMS integra todas estas funcionalidades.

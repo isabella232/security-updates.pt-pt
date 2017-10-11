@@ -1,0 +1,20 @@
+---
+TOCTitle: Configurar Modelos de Política de Direitos
+Title: Configurar Modelos de Política de Direitos
+ms:assetid: '31887a83-60c3-41b3-b636-69ff2dda3c88'
+ms:contentKeyID: 18123931
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720234(v=WS.10)'
+---
+
+Configurar Modelos de Política de Direitos
+==========================================
+
+Os procedimentos desta secção destinam-se a ajudá-lo a configurar e a gerir os modelos de política de direitos da organização. Os modelos de política de direitos são utilizados pelos clientes activados pelo RMS para fornecerem uma aplicação coerente das regras e condições ao conteúdo de uma organização.
+
+Esta secção contém os seguintes procedimentos:
+
+-   [Para Especificar a Localização dos Modelos de Política de Direitos](https://technet.microsoft.com/e1bee46d-33db-424f-ba45-1dcedcb883ab)
+-   [Para Adicionar um Modelo de Política de Direitos](https://technet.microsoft.com/1a5555cd-6d39-4078-a879-4106864674be)
+-   [Para Editar um Modelo de Política de Direitos](https://technet.microsoft.com/9580b934-bd6f-4097-9d3c-4fc14a3147fa)
+-   [Para Rever um Resumo dos Direitos de Utilizador para um Modelo de Política de Direitos](https://technet.microsoft.com/a3559cfd-3c80-4b6a-8e44-e4b42b98a76c)
+-   [Para Eliminar um Modelo de Política de Direitos](https://technet.microsoft.com/9c9a1496-cf55-4c65-a4c6-9fe245edce00)

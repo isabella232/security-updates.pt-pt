@@ -1,0 +1,16 @@
+---
+TOCTitle: Grupos de Segurança do RMS
+Title: Grupos de Segurança do RMS
+ms:assetid: '25749a83-8c12-48ec-96ad-296d31fd55d4'
+ms:contentKeyID: 18123912
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720215(v=WS.10)'
+---
+
+Grupos de Segurança do RMS
+==========================
+
+O programa de configuração do RMS cria dois grupos: o Grupo de serviços e o grupo de Super Utilizadores do RMS.
+
+o Grupo de Serviços do RMS é um grupo de segurança local com permissões suficientes para obter acesso a todos os recursos necessários à utilização do RMS. Durante a instalação, o administrador especifica uma conta de utilizador para utilizar como conta de serviço do RMS. Esta conta de utilizador é automaticamente considerada como um membro do RMS Service Group e, por consequência, são-lhe concedidas as respectivas permissões. O RMS é executado como conta de utilizador durante a maior parte das operações normais.
+
+Outro grupo importante do RMS é o grupo de Super Utilizadores. Este grupo tem controlo total sobre todo o conteúdo. Isto significa que um membro deste grupo pode desencriptar todos os ficheiros de conteúdo protegido pelo RMS e remover todas as protecções atribuídas pelo RMS. Por predefinição, o grupo de Super Utilizadores não tem membros nem inclui automaticamente os administradores do RMS. A gestão dos membros deste grupo é vital para a segurança do conteúdo protegido pelo RMS. Para mais informações, consulte "Utilizar o Grupo de Super Utilizadores" em "Utilizar um Servidor do RMS" nesta colecção de documentação.

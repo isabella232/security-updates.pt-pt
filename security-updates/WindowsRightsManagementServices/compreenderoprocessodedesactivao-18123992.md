@@ -1,0 +1,18 @@
+---
+TOCTitle: Compreender o Processo de Desactivação
+Title: Compreender o Processo de Desactivação
+ms:assetid: '57bd9949-9433-437b-93ed-ffb2dff9992e'
+ms:contentKeyID: 18123992
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720276(v=WS.10)'
+---
+
+Compreender o Processo de Desactivação
+======================================
+
+Através da utilização dos Serviços de Informação Internet (IIS), o RMS expõe os diversos serviços que integra. Por exemplo, o serviço de certificação inscreve os utilizadores e os respectivos computadores. Por sua vez, o serviço de licenciamento publica conteúdo e fornece acesso a informações protegidas pelo RMS. Um serviço adicional denominado serviço de desactivação tem de ser activado no servidor do RMS para iniciar o processo de desactivação. Quando o serviço de desactivação está activado, todos os restantes serviços do RMS fornecidos pelo servidor são desactivados.
+
+Quando o servidor do RMS é activado para desactivação, as aplicações podem obter uma chave de conteúdo através do serviço de desactivação que lhes permite desencriptar permanentemente o conteúdo protegido pelo RMS.
+
+Quando o servidor do RMS está a funcionar em modo de desactivação, qualquer utilizador com ou sem direitos associados ao conteúdo original protegido pelo RMS pode obter uma chave de conteúdo e todos os direitos sobre o conteúdo.
+
+Após a desencriptação do conteúdo, o utilizador deve guardá-lo sem protecção do RMS. Não se esqueça de que a utilização do serviço de desactivação implica a inscrição prévia do utilizador na infra-estrutura do RMS. Um utilizador sem um cliente activado do RMS não pode utilizar o serviço de desactivação para obter acesso a conteúdo protegido pelo RMS.

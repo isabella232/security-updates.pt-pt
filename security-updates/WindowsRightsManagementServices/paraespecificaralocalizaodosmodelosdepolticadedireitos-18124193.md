@@ -1,0 +1,39 @@
+---
+TOCTitle: Para Especificar a Localização dos Modelos de Política de Direitos
+Title: Para Especificar a Localização dos Modelos de Política de Direitos
+ms:assetid: 'e1bee46d-33db-424f-ba45-1dcedcb883ab'
+ms:contentKeyID: 18124193
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747781(v=WS.10)'
+---
+
+Para Especificar a Localização dos Modelos de Política de Direitos
+==================================================================
+
+Para efectuar este procedimento, tem de iniciar sessão localmente no Web site Administração com uma conta de utilizador de domínio que seja membro do grupo Administradores no computador a que está a aceder. Os membros do grupo de administradores de domínio também podem efectuar este procedimento. Como uma boa prática de segurança, considere a utilização do comando **Executar como** para efectuar este procedimento.
+
+Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
+
+Se guardar os modelos de política de direitos numa pasta partilhada e, em seguida, mudar a localização da pasta partilhada, deverá copiar manualmente os modelos de política de direitos da localização anterior para a nova.
+
+Os modelos de política de direitos também estão guardados na base de dados de configuração. Para mais informações sobre a distribuição dos modelos de políticas de direitos, consulte "[Distribuir Modelos de Política de Direitos](https://technet.microsoft.com/ae6fa26f-d744-4ac9-9eb1-728ffab87bfe)" anteriormente nesta secção.
+
+Se estiver a utilizar o Microsoft Office 2003 como a aplicação activada pelo RMS, a localização dos modelos da política de direitos é controlada pela chave do registo `AdminTemplatePath` e o cliente do RMS tentará localizar os modelos numa localização especificada na chave do registo em vez de procurar noutra localização.
+
+Especificar a Localização dos Modelos de Política de Direitos
+-------------------------------------------------------------
+
+#### Para Especificar a Localização dos Modelos de Política de Direitos
+
+1.  Abra a página **Administração Global** e, em seguida, no Web site em que pretende especificar a localização dos modelos de política de direitos, clique em **Administrar o RMS neste Web site**.
+
+2.  Na área **Ligações da administração**, clique em **Modelos de política de direitos**.
+
+3.  Na área **Localização do modelo**, especifique o UNC (Convenção de Nomenclatura Universal) de uma pasta partilhada onde possa guardar os modelos de política de direitos para esse cluster, sob a forma \\\\*nome\_servidor*\\*nome\_partilha*. A conta na qual está a ser executado o grupo de aplicações **Admin** deve ter a permissão de escrita na pasta partilhada. Deve certificar-se de que os modelos ficam guardados numa localização acessível da rede que satisfaça as linhas gerais de segurança da sua empresa. As pastas partilhadas para modelos não devem ser criadas nas pastas principais utilizadas pelo RMS, tais como a pasta Programas ou a pasta IISRoot.
+
+4.  Clique em **Guardar**.
+
+5.  Depois de criar os modelos de política de direitos e de os guardar nessa localização, é necessário torná-los disponíveis aos utilizadores. Por predefinição, o cliente do RMS procura os modelos de política de direitos na seguinte localização do computador local:
+
+    %HOMEPATH%\\Local Settings\\Application Data\\Microsoft\\DRM\\templates
+
+    Os modelos de política de direitos devem ser copiados da localização especificada no passo 3 para esta localização, para todos os utilizadores da organização que vão utilizar o RMS.

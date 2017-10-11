@@ -1,0 +1,19 @@
+---
+TOCTitle: Definir o Âmbito da Implementação do RMS
+Title: Definir o Âmbito da Implementação do RMS
+ms:assetid: '4b5fe1be-643e-47c4-bf9b-50d1e97108fb'
+ms:contentKeyID: 18124005
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747559(v=WS.10)'
+---
+
+Definir o Âmbito da Implementação do RMS
+========================================
+
+Os planos de implementação devem englobar todas as fases de implementação do RMS, incluindo testes, implementação interna e implementação externa. Para cada fase do programa piloto e da implementação, é necessário definir o âmbito da implementação. A seguir encontra alguns exemplos dos critérios básicos para a definição do âmbito. A implementação do RMS pode ter critérios adicionais:
+
+-   Quantos utilizadores irão participar?
+-   Quantos certificados e licenças (licenças de utilização, licenças de acesso a clientes, licenças de publicação, certificados de licenciador de clientes e certificados de contas de direitos) serão solicitados pelos utilizadores para um período de tempo específico?
+-   Quais são as aplicações activadas pelo RMS que pretende implementar?
+-   Quantos documentos necessita proteger?
+
+Planeie a implementação do RMS utilizando pequenos grupos piloto num ambiente controlado. Comece com um cliente activado pelo RMS e, em seguida, adicione grupos, documentos e aplicações activadas pelo RMS por fases.

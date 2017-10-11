@@ -1,0 +1,52 @@
+---
+TOCTitle: 'Passo 1: Rever os Requisitos de Instalação do WSUS'
+Title: 'Passo 1: Rever os Requisitos de Instalação do WSUS'
+ms:assetid: '57d7f8ec-1523-4485-9967-604be9ba2aac'
+ms:contentKeyID: 18142168
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720547(v=WS.10)'
+---
+
+Passo 1: Rever os Requisitos de Instalação do WSUS
+==================================================
+
+Este manual oferece instruções para instalar o Microsoft Windows Server Update Services (WSUS) em sistemas operativos Microsoft Windows Server 2003 (excepto Web Edition e todas as versões de 64 bits). Se tiver um servidor a executar o Microsoft Windows 2000 Server e necessitar de mais informações, consulte a documentação “Deploying Microsoft Windows Server Update Services”.
+
+Seguem-se os requisitos de instalação base para instalações que utilizem as opções predefinidas. Para requisitos de hardware e software para outras instalações, consulte a documentação “Deploying Microsoft Windows Server Update Services”.
+
+As recomendações de hardware para um servidor com um máximo de 500 clientes são:
+
+-   Processador de 1 gigahertz (GHz)
+-   1 gigabyte (GB) de memória RAM
+
+Requisitos de Software
+----------------------
+
+Para instalar o WSUS com opções predefinidas, terá de ter os itens abaixo instalados no computador. Para mais informações sobre os requisitos de software do WSUS, consulte a documentação “Deploying Microsoft Windows Server Update Services”. Se alguma destas actualizações requerer que o computador seja reiniciado quando a instalação estiver concluída, deverá reiniciar o servidor antes de instalar o WSUS.
+
+-   Microsoft Internet Information Services (IIS) 6.0. Para obter instruções sobre como instalar o IIS, consulte a documentação “Deploying Microsoft Windows Server Update Services” no Centro de Ajuda e Suporte do Windows Server 2003.
+-   Microsoft .NET Framework 1.1 Service Pack 1 para Windows Server 2003. Para obter este software, vá para o [Centro de Transferências](http://go.microsoft.com/fwlink/?linkid=47358) em http://go.microsoft.com/fwlink/?LinkId=47358 (o documento pode estar disponível apenas em inglês).
+    Em alternativa, poderá ir para http://www.windowsupdate.com e procurar Actualizações Críticas e Service Packs. Instale o Microsoft .NET Framework 1.1 Service Pack 1 para Windows Server 2003.
+-   Background Intelligent Transfer Service (BITS) 2.0. De momento, o BITS 2.0 para Windows Server 2003 não está disponível a partir do Centro de Transferências. Para obter este software, visite o [Web site da Microsoft](http://go.microsoft.com/fwlink/?linkid=47357) e vá para o Windows Server Update Services Open Evaluation, em http://go.microsoft.com/fwlink/?LinkId=47357 (o documento pode estar disponível apenas em inglês).
+
+| ![](images/Cc720547.note(WS.10).gif)Nota                                                                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Embora seja necessário software de base de dados para instalar o WSUS, não é listado nenhum aqui porque a instalação predefinida do WSUS no Windows Server 2003 inclui o software de base de dados Windows SQL Server™ 2000 Desktop Engine (WMSDE). |
+
+Recomendações e Requisitos de Disco
+-----------------------------------
+
+Para instalar o WSUS, o sistema de ficheiros do servidor deverá preencher os seguintes requisitos:
+
+-   Tanto a partição do sistema como a partição de instalação do WSUS têm de estar formatadas com o sistema de ficheiros NTFS.
+-   É necessário no mínimo 1 GB de espaço livre para a partição do sistema.
+-   São necessários no mínimo 6 GB de espaço livre para o volume onde o WSUS armazena conteúdo; recomenda-se 30 GB.
+-   São necessários no mínimo 2 GB de espaço livre no volume onde o Programa de Configuração do WSUS instala o Windows SQL Server 2000 Desktop Engine (WMSDE).
+
+Requisitos de Actualizações Automáticas
+---------------------------------------
+
+O serviço Actualizações Automáticas é o componente cliente do WSUS. O serviço Actualizações Automáticas não tem outros requisitos de hardware que não estar ligado à rede. É possível utilizar Actualizações Automáticas com o WSUS em computadores a executar qualquer um dos seguintes sistemas operativos:
+
+-   Microsoft Windows 2000 Professional com Service Pack 3 (SP3) ou Service Pack 4 (SP4), Windows 2000 Server com SP3 ou SP4, ou Windows 2000 Advanced Server com SP3 ou SP4.
+-   Microsoft Windows XP Professional, com ou sem Service Pack 1 ou Service Pack 2.
+-   Microsoft Windows Server 2003 Standard Edition, Windows Server 2003 Enterprise Edition, Windows Server 2003 Datacenter Edition ou Windows Server 2003 Web Edition.

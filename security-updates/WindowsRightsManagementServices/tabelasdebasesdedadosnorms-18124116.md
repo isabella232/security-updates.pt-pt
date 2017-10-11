@@ -1,0 +1,18 @@
+---
+TOCTitle: Tabelas de Bases de Dados no RMS
+Title: Tabelas de Bases de Dados no RMS
+ms:assetid: 'a2598d74-c81f-4e1b-8839-1514cd054354'
+ms:contentKeyID: 18124116
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747620(v=WS.10)'
+---
+
+Tabelas de Bases de Dados no RMS
+================================
+
+Esta secção descreve as tabelas da base de dados do RMS.
+
+Esta secção trata de:
+
+-   [Tabelas Essenciais à Base de dados de Configuração do RMS](https://technet.microsoft.com/8f9e15a2-92bc-41f7-a4fd-329567afb142)
+-   [Tabelas Essenciais à Base de dados de Certificação do RMS](https://technet.microsoft.com/d392663a-1a46-42f6-a71d-f0f2c1843566)
+-   [Tabelas de Bases de Dados de Registo do RMS](https://technet.microsoft.com/7ab2104c-b12d-4807-8a4b-bcabb145ff9b)

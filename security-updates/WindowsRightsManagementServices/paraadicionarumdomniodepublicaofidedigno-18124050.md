@@ -1,0 +1,33 @@
+---
+TOCTitle: Para Adicionar um Domínio de Publicação Fidedigno
+Title: Para Adicionar um Domínio de Publicação Fidedigno
+ms:assetid: '731416d8-ddf4-4d4a-9f1a-bbd1ea48fe3c'
+ms:contentKeyID: 18124050
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747624(v=WS.10)'
+---
+
+Para Adicionar um Domínio de Publicação Fidedigno
+=================================================
+
+Para efectuar este procedimento, tem de iniciar sessão localmente no Web site Administração com uma conta de utilizador de domínio que seja membro do grupo Administradores no computador a que está a aceder. Os membros do grupo de administradores de domínio também podem efectuar este procedimento. Como uma boa prática de segurança, considere a utilização do comando **Executar como** para efectuar este procedimento.
+
+Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
+
+Se estiver a utilizar um módulo de segurança por hardware para proteger a chave privada do RMS e importar um certificado de licenciador de servidores de uma instalação do RMS que utilize protecção de chave privada por meio de software, é necessário especificar uma palavra-passe da chave privada na página de **Definições de segurança** do servidor do RMS no cluster antes de tentar importar o certificado.
+
+Adicionar um Domínio de Publicação Fidedigno
+--------------------------------------------
+
+#### Para Adicionar um Domínio de Publicação Fidedigno
+
+1.  Abra a página **Administração Global** e, em seguida, no Web site em que pretende adicionar um domínio de publicação fidedigno, clique em **Administrar o RMS neste Web site**.
+
+2.  Na área **Ligações da administração**, clique em **Políticas de fidedignidade**.
+
+3.  Na área **Domínios de publicação fidedignos**, clique em **Procurar**. Localize e faça duplo clique no certificado do domínio de publicação que pretende adicionar. Em **Palavra-passe para desencriptar o ficheiro a ser importado**, escreva a palavra-passe necessária para desencriptar esse ficheiro e, em seguida, clique em **Importar**.
+
+    O ficheiro de palavra-passe encriptada contém o certificado de licenciador, a chave privada (se a chave está armazenada em software) e os modelos de política de direitos.
+
+4.  O nome do domínio aparece na lista **Domínios de publicação fidedignos**.
+
+Para mais informações sobre como efectuar este procedimento, consulte "[Adicionar e Remover Domínios de Publicação Fidedignos](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)" anteriormente nesta secção.

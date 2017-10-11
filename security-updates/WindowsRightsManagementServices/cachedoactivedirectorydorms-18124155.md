@@ -1,0 +1,30 @@
+---
+TOCTitle: Cache do Active Directory do RMS
+Title: Cache do Active Directory do RMS
+ms:assetid: 'c721a2eb-2fe9-4346-b426-3cc169b97265'
+ms:contentKeyID: 18124155
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747662(v=WS.10)'
+---
+
+Cache do Active Directory do RMS
+================================
+
+Cada servidor ou cluster de certificações de raiz do RMS e servidor de licenciamento tem uma cache local do Active Directory que contém os resultados das consultas de membros de grupo do catálogo global do Active Directory. Para além da cache de cada servidor, existe uma cache partilhada para cada cluster que está armazenada na base de dados dos serviços de directório. O objectivo destas caches consiste em reduzir o número de consultas que são submetidas ao catálogo global e reduzir o tempo de resposta para os pedidos de licenciamento.
+
+Quando um utilizador pede uma licença de utilização, o servidor que responde deve avaliar se foram ou não atribuídos a esse utilizador os direitos necessários na licença de publicação. No caso mais simples, o utilizador que pede uma licença está explicitamente identificado na licença de publicação. Contudo, em muitos cenários, o autor concede direitos a um grupo em vez de a utilizadores individuais.
+
+Se a licença de publicação não identifica explicitamente o utilizador mas, no seu lugar, atribui direitos a um grupo, o servidor deve avaliar os membros do grupo do utilizador para determinar se esse utilizador é ou não membro de um grupo ao qual foram atribuídos direitos. Para isso, o servidor submete uma consulta LDAP ao catálogo global.
+
+Os servidores do RMS colocam todos os resultados das consultas de membros dos grupos na cache local do Active Directory e na base de dados de serviços de directório do cluster. Os servidores podem, assim, obter informações dos membros dos grupos dessas caches, o que reduz o número de consultas que têm de submeter ao catálogo global. Por predefinição, é consultado o servidor mais próximo. No entanto, pode configurar a chave de registo GC para especificar os servidores de catálogo global a consultar. Para mais informações sobre esta definição, consulte "Modificar as Definições do Registo do Grupo de Ligações" em "Utilizar um Servidor do RMS" nesta colecção de documentação.
+
+Para avaliar os membros de um grupo de utilizadores, o servidor começa por verificar a respectiva cache para ver se já tem informações sobre os membros do grupo desse utilizador nela guardadas. Se não tiver, o servidor verifica, em seguida, a base de dados de serviços de directório relativos ao cluster. Se as informações desses membros do grupo não estiverem armazenadas nessa base de dados, o servidor então consulta o catálogo global.
+
+Para utilizadores e grupos, estão em cache os seguintes atributos do Active Directory:
+
+-   mail
+-   ProxyAddresses (apenas endereços SMTP de correio electrónico)
+-   objectSID
+-   sidHistory
+-   memberOf (GUIDs de grupos dos quais o utilizador ou grupo é um membro)
+
+As entradas na cache do Active Directory local são marcadas com a hora. As definições do registo especificam o período de validade para as entradas que estão na cache, bem como o número total de entradas que podem ser guardadas na cache. Estas definições podem afectar o desempenho dos servidores. Para mais informações, consulte "Modificar as Definições do Registo do Grupo de Ligações" em "Utilizar um Servidor do RMS" nesta colecção de documentação.

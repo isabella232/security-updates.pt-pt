@@ -1,0 +1,78 @@
+---
+TOCTitle: 'Passo 2: Instalar o servidor WSUS ou a Consola de Administração'
+Title: 'Passo 2: Instalar o servidor WSUS ou a Consola de Administração'
+ms:assetid: '6db6fcb0-c55d-43b9-9b07-4040c6267759'
+ms:contentKeyID: 21799018
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Dd939859(v=WS.10)'
+---
+
+Passo 2: Instalar o servidor WSUS ou a Consola de Administração
+===============================================================
+
+Depois de assegurar que o servidor preenche os requisitos mínimos de sistema e que foram concedidas as permissões de conta necessárias, está preparado para instalar o Windows Server Upgrade Services 3.0 Service Pack 2 (WSUS 3.0 SP2). Para iniciar a instalação do WSUS 3.0 SP2, utilize o procedimento aplicável para o seu sistema operativo e para o tipo de instalação (utilizando o Gestor de Servidor ou o ficheiro WUSSetup.exe).
+
+Se estiver a utilizar o Gestor de Servidor
+------------------------------------------
+
+**Para iniciar a instalação do WSUS 3.0 SP2 Server utilizando o Gestor de Servidor**
+1.  Inicie sessão no servidor no qual pretende instalar o WSUS 3.0 SP2 utilizando uma conta membro do grupo Administradores local.
+
+2.  Clique em **Iniciar**, aponte para **Ferramentas Administrativas** e, em seguida, clique em **Gestor de Servidor**.
+
+3.  No painel da direita da janela do Gestor de Servidor, na secção Resumo das Funções, clique em **Adicionar Funções**.
+
+4.  Se a página Antes de Começar aparecer, clique em **Seguinte**.
+
+5.  Na página Seleccionar Funções de Servidor, seleccione **Windows Server Update Services**.
+
+6.  Na página Windows Server Update Services, clique em **Seguinte**.
+
+7.  Na página Confirmar Selecções de Instalação, clique em **Instalar**.
+
+8.  Quando o Assistente de Configuração do WSUS 3.0 SP2 for iniciado, ignore a secção seguinte e consulte o procedimento “Para continuar a instalar o WSUS 3.0 SP2”.
+
+Se estiver a utilizar o ficheiro WUSSetup.exe
+---------------------------------------------
+
+**Para iniciar a instalação do WSUS 3.0 SP2 Server ou da Consola de Administração do WSUS 3.0 SP2 utilizando o ficheiro WUSSetup.exe**
+1.  Inicie sessão no servidor no qual pretende instalar o WSUS 3.0 SP2 utilizando uma conta membro do grupo Administradores local.
+
+2.  Faça duplo clique no ficheiro de instalação do **WSUSSetup.exe**.
+
+3.  Quando o Assistente de Configuração do Windows Server Update Services 3.0 SP2 for iniciado, consulte o procedimento “Para continuar a instalar o WSUS 3.0 SP2”.
+
+Utilizar o Assistente de Configuração do WSUS 3.0 SP2
+-----------------------------------------------------
+
+O Assistente de Configuração do WSUS é iniciado a partir do Gestor de Servidor ou do ficheiro WUSSetup.exe.
+
+**Para continuar a instalar o WSUS 3.0 SP2**
+1.  Na página Bem-vindo do Assistente de Configuração do Windows Server Update Services 3.0, clique em **Seguinte**.
+
+2.  Na página Selecção do Modo de Instalação, seleccione **Instalação completa de servidor incluindo Consola de Administração**, se pretender instalar o servidor WSUS neste computador, ou em **Apenas Consola de Administração**, se pretender instalar apenas a consola de administração.
+
+3.  Na página Contrato de Licença, leia os termos do contrato de licença, clique em **Aceito os termos do Contrato de Licença** e, depois, clique em **Seguinte**.
+
+4.  Pode especificar o local a partir do qual os clientes poderão obter actualizações na página Seleccionar Origem de Actualização do assistente de instalação. Por predefinição, a caixa de verificação **Armazenar actualizações localmente** é seleccionada e as actualizações serão armazenadas no servidor WSUS, no local que especificou. Se desmarcar a caixa de verificação **Armazenar actualizações localmente**, os computadores cliente obtêm actualizações aprovadas estabelecendo ligação ao Microsoft Update. Faça a sua selecção e, depois, clique em **Seguinte**.
+
+5.  Na página Opções de Base de Dados, seleccione o software que é utilizado para gerir a base de dados do WSUS 3.0. Por predefinição, o assistente de instalação oferece-se para instalar o Windows Internal Database.
+
+    Se não quiser utilizar o Windows Internal Database, forneça uma instância de servidor de SQL para o WSUS utilizar, seleccionando **Utilizar uma base de dados existente neste servidor** ou **Utilizar um servidor de base de dados existente num computador remoto**. Escreva o nome da instância na caixa respectiva. O nome da instância deverá aparecer como &lt;*serverName*&gt;\\&lt;*instanceName*&gt;, em que *serverName* é o nome do servidor e *instanceName* é o nome da instância de SQL. Faça a sua selecção e, depois, clique em **Seguinte**.
+
+6.  Se tiver optado por ligar a um servidor SQL, na página **A ligar à instância de servidor de SQL**, o WSUS tenta estabelecer ligação à instância do servidor de SQL especificada. Quando tiver estabelecido ligação com êxito, clique em **Seguinte** para continuar.
+
+7.  Na página Selecção de Web Site, especifique o Web site que o WSUS irá utilizar. Se pretender utilizar o Web site predefinido na porta 80, seleccione **Utilizar o Web site IIS Predefinido existente**. Se já tiver um Web site na porta 80, pode criar um site alternativo na porta 8530, seleccionando **Criar Web site do Windows Server Update Services 3.0 SP2**. Clique em **Seguinte**.
+
+8.  Na página **Pronto para instalar o Windows Server Update Services**, reveja as selecções e, depois, clique em **Seguinte**.
+
+9.  A última página do assistente de instalação indica se a instalação do WSUS foi concluída com êxito. Depois de clicar em **Concluir**, é iniciado o assistente de configuração.
+
+Passo seguinte
+--------------
+
+[Passo 3: Configurar as Ligações de Rede](https://technet.microsoft.com/42a144c5-f08e-4a6e-b360-47ddea77bd24).
+
+Recursos adicionais
+-------------------
+
+[Manual Passo a Passo do Windows Server Update Services 3.0 SP2](https://technet.microsoft.com/4b504edc-93b3-45b0-a7e8-d0107f1a4442)

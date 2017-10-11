@@ -1,0 +1,31 @@
+---
+TOCTitle: Para Excluir Versões do Windows
+Title: Para Excluir Versões do Windows
+ms:assetid: '73cb4953-91a3-4fab-890f-7e52e20acf0c'
+ms:contentKeyID: 18124047
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747561(v=WS.10)'
+---
+
+Para Excluir Versões do Windows
+===============================
+
+Para efectuar este procedimento, tem de iniciar sessão localmente no Web site Administração com uma conta de utilizador de domínio que seja membro do grupo Administradores no computador a que está a aceder. Os membros do grupo de administradores de domínio também podem efectuar este procedimento. Como uma boa prática de segurança, considere a utilização do comando **Executar como** para efectuar este procedimento.
+
+Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
+
+Estas condições são impostas pelo cliente na altura em que a licença de utilização está associada ao conteúdo protegido.
+
+Excluir Versões do Windows
+--------------------------
+
+#### Para Excluir Versões do Windows
+
+1.  Abra a página **Administração Global** e, em seguida, no Web site em que pretende excluir versões do Windows, clique em **Administrar o RMS neste Web site**.
+
+2.  Na área **Ligações da administração**, clique em **Políticas de exclusão**.
+
+3.  Na área de exclusão da versão do Windows, clique em **Activar** para excluir o Microsoft® Windows 98 Second Edition e o Microsoft® Windows Millennium Edition.
+
+    Para desactivar a exclusão dessas versões do Windows, clique em **Desactivar**.
+
+Para mais informações sobre a execução deste procedimento, consulte "[Excluir Versões do Windows](https://technet.microsoft.com/8b8a184d-ac0e-4a43-822c-d2fae2faf484)" anteriormente nesta secção.

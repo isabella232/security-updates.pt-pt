@@ -1,0 +1,42 @@
+---
+TOCTitle: Serviço de Desactivação do RMS
+Title: Serviço de Desactivação do RMS
+ms:assetid: '97677e3b-bc83-47ec-b6db-d326cd94566c'
+ms:contentKeyID: 18124101
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747695(v=WS.10)'
+---
+
+Serviço de Desactivação do RMS
+==============================
+
+O serviço de Desactivação é um serviço Web personalizado instalado pelo programa de configuração do RMS. É executado no cluster de raiz e nos clusters de licenciamento. Quando este serviço é activado, todos os outros serviços Web do RMS no servidor ficam desactivados.
+
+Este serviço desencripta a chave de conteúdo da licença de publicação do conteúdo protegido e fornece esta chave ao cliente em resposta a um pedido de licenciamento. Isto permite guardar o conteúdo sem protecção do RMS. O serviço de desactivação regista todos os pedidos de cliente que lhe são feitos e envia-os para o serviço de escuta do registo na base de dados de registo.
+
+Pode activar o serviço de desactivação a partir da página **Definições de segurança** no Web site de Administração. Depois de activar este serviço, não é possível restaurar o servidor para uma configuração padrão do RMS.
+
+Depois de activar o serviço, deve definir a DACL do ficheiro decommission.asmx para permitir o acesso a utilizadores da empresa que tenham utilizado este servidor para licenciar o conteúdo e adicionar o Grupo de Serviços do RMS à DACL com permissões de leitura e execução para que o RMS possa gerir o funcionamento. Depois de todo o conteúdo que é publicado por este servidor estar desprotegido, deve fazer uma cópia de segurança das informações relativas à chave privada e, em seguida, remover o RMS do servidor.
+
+A lista de controlo de acessos predefinida neste serviço é apresentada na tabela seguinte:
+
+###  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Utilizador ou Grupo</th>
+<th>Permissão predefinida</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">SISTEMA</td>
+<td style="border:1px solid black;">Controlo total</td>
+</tr>
+</tbody>
+</table>

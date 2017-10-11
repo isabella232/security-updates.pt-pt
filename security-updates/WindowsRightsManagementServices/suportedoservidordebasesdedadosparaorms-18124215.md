@@ -1,0 +1,20 @@
+---
+TOCTitle: Suporte do Servidor de Bases de Dados para o RMS
+Title: Suporte do Servidor de Bases de Dados para o RMS
+ms:assetid: 'c9844783-e6c4-49b4-8e7f-0f0377143b44'
+ms:contentKeyID: 18124215
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747664(v=WS.10)'
+---
+
+Suporte do Servidor de Bases de Dados para o RMS
+================================================
+
+O RMS utiliza um servidor de bases de dados, tal como o SQL Server ou o Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A, para executar as bases de dados dos serviços de configuração, registo e directório do RMS. Só pode utilizar o MSDE 2000 numa implementação de servidor único. Para obter protecção de activação pós-falha, pode implementar um cluster de servidor de bases de dados.
+
+Para suportar requisitos de registo, pode também executar as bases de dados de configuração e registo em clusters ou instâncias de servidor de bases de dados separadas para o servidor ou cluster de certificações de raiz e clusters de licenciamento. Para mais informações sobre estas opções, consulte "Implementar um sistema do RMS" nesta colecção de documentação.
+
+Por predefinição, o grupo de Serviços do RMS tem permissões de Execução para os procedimentos armazenados nestas bases de dados. A conta de utilizador que foi registada durante o aprovisionamento tem permissões de Proprietário de Bases de Dados nessas bases de dados.
+
+| ![](images/Cc747664.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Recomenda-se a utilização do Microsoft SQL Server Desktop Engine para suportar as bases de dados do RMS apenas em ambientes de teste pois o Microsoft SQL Server Desktop Engine não inclui as ferramentas necessárias para o funcionamento e suporte integrais de uma base de dados empresarial. Adicionalmente, como o MSDE não suporta acesso remoto à rede, tem de instalá-lo no mesmo servidor que o RMS e não pode adicionar outros servidores do RMS ao cluster do RMS. Os termos de utilização do Microsoft SQL Server Desktop Engine especificam que não é possível utilizar ferramentas do cliente SQL Server para manipular uma base de dados do Microsoft SQL Server Desktop Engine. Esta restrição impossibilita a execução de cópias de segurança e o restauro da base de dados de configuração do RMS, a visualização das informações de registo ou a modificação directa de dados armazenados na base de dados de configuração. |

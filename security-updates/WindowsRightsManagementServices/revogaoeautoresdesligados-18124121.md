@@ -1,0 +1,14 @@
+---
+TOCTitle: Revogação e Autores Desligados
+Title: Revogação e Autores Desligados
+ms:assetid: 'a9cf0541-9101-4e90-9c56-7c1b9a8deca6'
+ms:contentKeyID: 18124121
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747631(v=WS.10)'
+---
+
+Revogação e Autores Desligados
+==============================
+
+Os autores que publicam conteúdo protegido e, depois, pretendem trabalhar novamente com esse conteúdo, devem ter uma licença de utilização para esse fim. Para a publicação online, a licença de utilização é obtida através do mesmo mecanismo que é utilizado para qualquer destinatário de conteúdo protegido, mas, por predefinição, atribui ao autor todos os direitos sobre esse conteúdo. Se a licença de publicação incluir uma condição de utilização que requer uma lista de revogação, a aplicação activada pelo RMS transfere a lista de revogação a parte da rede.
+
+Um autor que esteja desligado da rede da empresa, terá, no entanto, alguma dificuldade em obter uma lista de revogações. Para resolver esta situação, o certificado de licenciador de clientes, que é utilizado na publicação offline, emite um tipo especial de licença, denominado licença de proprietário, para além da licença de publicação. Uma licença de proprietário permite ao autor trabalhar com o conteúdo depois deste estar protegido. Mesmo que o modelo de política de direitos que é especificado para o conteúdo necessite de uma lista de revogações, uma licença de proprietário nunca inclui um requisito de lista de revogações. Isto permite que autores que estejam desligados possam continuar a trabalhar com o seu conteúdo depois de o terem publicado, sem necessitarem de obter uma lista de revogações.

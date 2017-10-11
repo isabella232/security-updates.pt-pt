@@ -1,0 +1,28 @@
+---
+TOCTitle: Identificação do Serviço de Licenciamento
+Title: Identificação do Serviço de Licenciamento
+ms:assetid: '4eabbb76-b359-443a-b737-098c5659e9c6'
+ms:contentKeyID: 18123977
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720269(v=WS.10)'
+---
+
+Identificação do Serviço de Licenciamento
+=========================================
+
+O serviço de licenciamento do RMS emite licenças de utilização que permitem aos utilizadores autenticados consumirem conteúdo protegido.
+
+Este serviço é executado nos servidores ou clusters de certificações de raiz ou de licenciamento. Para fazer um pedido de licença de utilização, o cliente começa, a partir do Active Directory, por tentar obter o URL para o directório virtual Licensing do cluster de certificações de raiz, onde se encontra o serviço de licenciamento. Em seguida, anexa o caminho para o serviço de licenciamento.
+
+Por exemplo, o URL para o directório virtual Licensing de um cluster de certificações de raiz está armazenado no Active Directory na seguinte forma:
+
+http://*nome\_servidor*/\_wmcs/Licensing
+
+Quando um servidor pede uma licença de utilização, ele anexa o nome do ficheiro do serviço de licenciamento ao URL, da seguinte forma:
+
+http://*nome\_servidor*/\_wmcs/Licensing/License.asmx
+
+O serviço está localizado no servidor do RMS ou na conta do .NET Passport emitida pela licença de publicação. O URL está incluído na licença de publicação.
+
+| ![](images/Cc720269.note(WS.10).gif)Nota                    |
+|------------------------------------------------------------------------------------------|
+| Se activou o SSL no servidor do RMS, estes URL utilizam o protocolo de ligação https://. |

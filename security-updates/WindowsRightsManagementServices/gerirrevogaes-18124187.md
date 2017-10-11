@@ -1,0 +1,22 @@
+---
+TOCTitle: Gerir Revogações
+Title: Gerir Revogações
+ms:assetid: 'df732a7d-1fb0-4845-87ca-fab4bc5f98a0'
+ms:contentKeyID: 18124187
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747769(v=WS.10)'
+---
+
+Gerir Revogações
+================
+
+A revogação é implementada através da utilização de modelos de política de direitos e de listas de revogações. Cada modelo de política de direitos especifica a sua própria política de revogações, que inclui a lista de revogações que é necessária. Para mais informações sobre como trabalhar com modelos de política de direitos, consulte "[Gerir Modelos de Política de Direitos.](https://technet.microsoft.com/718286dc-3399-4556-96c9-ec3a33d31877)" posteriormente nesta secção. Para obter instruções detalhadas sobre a criação e edição de modelos de política de direitos, consulte "[Configurar Modelos de Política de Direitos](https://technet.microsoft.com/31887a83-60c3-41b3-b636-69ff2dda3c88)" posteriormente nesta secção.
+
+Este tópico tece considerações importantes para a definição das políticas de revogações da organização. Contém instruções detalhadas acerca da forma como podem ser implementadas revogações, e da forma como podem ser criadas e implementadas listas de revogações. Também descreve a forma como podem ser revogados os certificados de licenciadores de servidores, que são um caso especial.
+
+Esta secção trata de:
+
+-   [Definir Políticas de Revogação](https://technet.microsoft.com/e2fffe9f-def7-439b-a8aa-43f8a065813d)
+-   [Implementar uma Revogação](https://technet.microsoft.com/4735f060-7197-4ae2-830a-f91bcc4de30a)
+-   [Criar Listas de Revogações](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)
+-   [Implementar Listas de Revogações](https://technet.microsoft.com/e331338b-66d4-45e4-8d3f-acccf2302ac4)
+-   [Revogar Certificados de Licenciador de Servidores](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616)

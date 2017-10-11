@@ -1,0 +1,18 @@
+---
+TOCTitle: Cliente dos Serviços de Gestão de Direitos do Active Directory para Windows Vista
+Title: Cliente dos Serviços de Gestão de Direitos do Active Directory para Windows Vista
+ms:assetid: 'e55697a3-3415-486b-8bbb-a30256fe948c'
+ms:contentKeyID: 18124199
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747784(v=WS.10)'
+---
+
+Cliente dos Serviços de Gestão de Direitos do Active Directory para Windows Vista
+=================================================================================
+
+Os Serviços de Gestão de Direitos do Microsoft® Windows® (RMS, Rights Management Services) proporcionam serviços que visam permitir a criação de soluções de protecção de informação. O RMS é uma tecnologia agnóstica em termos de formato e aplicação. Funciona com qualquer aplicação activada pelo RMS para fornecer políticas de utilização persistentes para informação sensível. O conteúdo passível de ser protegido utilizando o RMS inclui Web sites, mensagens de correio electrónico e documentos na intranet. O RMS inclui um conjunto de funções nucleares que permitem aos programadores adicionar protecção de informação às funcionalidades das aplicações existentes.
+
+Com o Windows Vista, o nome do cliente do RMS foi alterado para cliente Active Directory Rights Management Services (AD RMS) e está integrado no sistema operativo, pelo que não é necessária uma instalação em separado. Nas versões dos sistemas operativos Microsoft Windows anteriores ao Windows Vista, o cliente é denominado cliente do RMS (Serviços de Gestão de Direitos) do Microsoft Windows e está disponível no Centro de Transferências da Microsoft ([http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736)) como um componente transferido separadamente.
+
+O cliente AD RMS requer pouca interacção do administrador do sistema que administra os computadores clientes. No entanto, em ambientes mais complexos, poderá ser necessário ajustar a configuração de cliente AD RMS predefinida.
+
+Para obter mais informações técnicas sobre o RMS e o novo cliente AD RMS, consulte [http://go.microsoft.com/fwlink/?LinkId=68637](http://go.microsoft.com/fwlink/?linkid=68637).

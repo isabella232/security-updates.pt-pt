@@ -1,0 +1,14 @@
+---
+TOCTitle: Configurar as Definições de Proxy do RMS
+Title: Configurar as Definições de Proxy do RMS
+ms:assetid: '179d2970-62e9-4487-aa5b-f4334234991e'
+ms:contentKeyID: 18123951
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720207(v=WS.10)'
+---
+
+Configurar as Definições de Proxy do RMS
+========================================
+
+Se for necessário utilizar um servidor proxy com a instalação do RMS, é necessário configurar o RMS para utilizar o servidor proxy e especificá-lo com uma conta de utilizador que possa ser utilizada quando o servidor proxy solicitar as credenciais.
+
+Quando aprovisionar um servidor do RMS, pode especificar as definições de proxy do servidor. No entanto, pode adicionar um servidor proxy à rede depois do aprovisionamento ou o servidor proxy poderá mudar durante o desenvolvimento da infra-estrutura. Pode utilizar a Home Page Administração para alterar as definições de proxy do servidor após o aprovisionamento.

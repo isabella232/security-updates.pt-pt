@@ -1,0 +1,90 @@
+---
+TOCTitle: Preparar a Instalação do Servidor de Certificações de Raiz
+Title: Preparar a Instalação do Servidor de Certificações de Raiz
+ms:assetid: 'ed51605e-8b17-4155-8d83-f6777f499b7b'
+ms:contentKeyID: 18124235
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747726(v=WS.10)'
+---
+
+Preparar a Instalação do Servidor de Certificações de Raiz
+==========================================================
+
+No exemplo da instalação de teste, existe apenas um servidor de certificações de raiz. Se pretender, pode configurar servidores adicionais como parte de um cluster de certificações de raiz ou como um cluster de servidor de licenciamento individual. A configuração da infra-estrutura para estes tipos de servidores é a mesma, pelo que necessita de efectuar o procedimento descrito neste tópico em cada um desses servidores.
+
+Após a instalação do controlador de domínio, a configuração dos servidores de bases de dados (como descrito na secção anterior) e a execução dos passos indicados na tabela a seguir, pode instalar o RMS.
+
+###  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente da Infra-estrutura</th>
+<th>Para Preparar o Servidor para a Instalação do RMS</th>
+<th>Notas sobre a Implementação num Ambiente de Produção</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Sistema operativo</td>
+<td style="border:1px solid black;">Num computador que cumpre os requisitos de hardware do RMS mas ainda não tem ligação a uma rede, instale o sistema operativo Windows Server 2003 e utilize o sistema de ficheiros NTFS para a partição.</td>
+<td style="border:1px solid black;">Recomenda-se que instale sempre os service packs e os patches mais recentes. Utilize partições formatadas para NTFS.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Ligação à Internet
+(opcional)</td>
+<td style="border:1px solid black;">Estabeleça uma ligação Ethernet para uma rede que forneça conectividade Internet mas que esteja isolada do ambiente de produção. Se utilizar a inscrição online para inscrever o servidor do RMS como parte do processo de aprovisionamento, o servidor necessita de ter conectividade Internet.</td>
+<td style="border:1px solid black;">Se utilizar a inscrição online, certifique-se de que a ligação à Internet tem um firewall adequado.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Endereço IP</td>
+<td style="border:1px solid black;">Atribua um endereço IP estático a este computador.</td>
+<td style="border:1px solid black;">Utilize sempre endereços IP estáticos para servidores.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Associar este computador ao domínio</td>
+<td style="border:1px solid black;">Inicie sessão no computador como administrador local. Clique em <strong>Iniciar</strong>, clique com o botão direito do rato em <strong>O Meu Computador</strong>, clique em <strong>Propriedades</strong>, clique no separador <strong>Nome do Computador</strong> e, em seguida, clique em <strong>Alterar</strong>.</td>
+<td style="border:1px solid black;">Utilize o mesmo domínio para todos os servidores.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Deixe o nome do computador tal como está, clique em <strong>Domínio</strong> e, em seguida, escreva o nome do domínio; por exemplo, escreva Contoso.com e, em seguida, clique em <strong>OK</strong>. Forneça as credenciais do utilizador que lhe permitem associar-se ao domínio, clique em <strong>OK</strong> e, em seguida, reinicie o computador quando tal lhe for pedido. Depois de o computador ter sido reiniciado e de as credenciais de início de sessão terem sido solicitadas, forneça o domínio, o nome de utilizador e a palavra-passe adequados.</td>
+<td style="border:1px solid black;"> </td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Utilizador e início de sessão</td>
+<td style="border:1px solid black;">Clique com o botão direito do rato em <strong>O Meu Computador</strong>, clique em <strong>Gerir</strong>, expanda <strong>Utilizadores e Grupos Locais,</strong> clique em <strong>Grupos</strong> e, em seguida, faça duplo clique em <strong>Administradores</strong>.
+Clique em <strong>Adicionar</strong>, especifique o nome da conta de utilizador a ser adicionada (por exemplo, Miguel@contoso.com) e, em seguida, clique em <strong>OK</strong>. Atribua privilégios de administrador à conta de utilizador. Quando lhe forem pedidas as credenciais, especifique-as correctamente; por exemplo, Contoso\Administrador.
+Inicie sessão no computador como um utilizador de domínio com privilégios de Administrador para o computador.</td>
+<td style="border:1px solid black;">É necessário ter direitos de administrador para adicionar componentes a este computador. Alguns passos da instalação não podem ser concluídos com a conta de administrador local. Necessita de ter, pelo menos, um utilizador de domínio neste servidor que seja administrador. Além disso, o SQL Server requer direitos de Administrador de Sistema para criar bases de dados novas.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Ligação à Internet
+(opcional)</td>
+<td style="border:1px solid black;">Utilize um browser da Internet para aceder a http://uddi.microsoft.com/ e verificar o acesso à Internet. Em computadores com o Windows Server 2003, os ficheiros Lmhosts e Hosts podem ter de ser alterados para incluir o controlador de domínio.</td>
+<td style="border:1px solid black;">Vá para http://uddi.microsoft.com para verificar o acesso à Internet.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Activação do Windows</td>
+<td style="border:1px solid black;">Pode utilizar o Assistente de Activação para activar o Windows junto da Microsoft utilizando uma ligação à Internet ou pode activar o Windows através de um contacto telefónico. Para mais informações sobre a activação de produto do Windows Server 2003, consulte o Centro de Ajuda e Suporte do Windows Server 2003.</td>
+<td style="border:1px solid black;">O Windows Server 2003 tem de ser activado 14 dias após a sua instalação.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Actualizações de software</td>
+<td style="border:1px solid black;">Certifique-se de que instala as actualizações de software mais recentes para o software instalado neste computador.</td>
+<td style="border:1px solid black;">Instale as actualizações de software mais recentes.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Configurar o Internet Explorer</td>
+<td style="border:1px solid black;">O RMS utiliza uma interface Web para a administração. Algumas das definições de segurança predefinidas podem impedir as páginas de serem compostas correctamente. Algumas páginas do Web site Administração do RMS utilizam janelas de contexto para algumas opções de configuração.</td>
+<td style="border:1px solid black;"> </td>
+</tr>
+</tbody>
+</table>
+  
+Quando concluir todos os passos anteriores em ambos os servidores, pode instalar e aprovisionar o RMS nos servidores.

@@ -1,0 +1,32 @@
+---
+TOCTitle: Efectuar Cópias de Segurança e Restaurar o sistema
+Title: Efectuar Cópias de Segurança e Restaurar o sistema
+ms:assetid: 'c11f3ac1-e512-402b-bf13-9ff21f5fe745'
+ms:contentKeyID: 18124144
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747745(v=WS.10)'
+---
+
+Efectuar Cópias de Segurança e Restaurar o sistema
+==================================================
+
+Quando planear a recuperação do sistema, inclua a falha do servidor de bases de dados e de um servidor do RMS. No caso de uma falha do servidor de bases de dados, pode restaurar a funcionalidade de um servidor ou cluster do RMS a partir de uma cópia de segurança da base de dados de configuração. Não é necessário obter um novo certificado de licenciador de servidores ou uma nova chave privada para o servidor do RMS, porque estes itens estão armazenados na base de dados de configuração.
+
+Planear a Cópia de Segurança do Sistema do RMS
+----------------------------------------------
+
+Para além da chave do servidor, os dados dos utilizadores, incluindo a informação sobre a chave pública, estão armazenados na base de dados de configuração. Para proteger os valiosos dados das chaves, efectue cópias de segurança num suporte removível e guarde-o em sítio seguro. A base de dados de configuração do cluster de certificações de raiz é alterada frequentemente, pelo que é recomendável a execução de cópias de segurança frequentes. Quanto maior for o crescimento em termos de novos utilizadores, maior deverá ser a frequência da execução das cópias de segurança. Se estiver a efectuar uma cópia de segurança do servidor de certificações de raiz, certifique-se também de que inclui a tabela **sysmessages** a partir da base de dados principal. Se esta tabela não incluir as mensagens específicas do RMS, o servidor de certificações de raiz não será capaz de funcionar e devolverá um erro. Se esta tabela não for incluída na cópia de segurança, pode ser recriada através da repetição do processo de aprovisionamento que utilize uma base de dados existente.
+
+A base de dados de registo do RMS contém registos que podem fornecer dados importantes de resolução de problemas e estatísticos. No entanto, não é crítica para o sistema do RMS. A base de dados de Serviços de Directório é uma cache local da base de dados do Active Directory, pelo que é recriada automaticamente quando restaura um sistema do RMS. Para definir um plano de execução de cópias de segurança das bases de dados do RMS, consulte o administrador do SQL Server.
+
+Se estiver a utilizar um módulo de segurança por hardware para proteger as chaves privadas do RMS, também é necessário efectuar uma cópia de segurança da configuração do módulo de segurança por hardware. Para mais informações sobre como efectuar cópias de segurança e restaurar a configuração do módulo de segurança por hardware, consulte a documentação do módulo de segurança por hardware.
+
+| ![](images/Cc747745.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                             |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Se utilizar um fornecedor de serviço criptográfico (CSP) baseado em software diferente do CSP predefinido para encriptar as chaves privadas do RMS, certifique-se de que possui práticas organizacionais de gestão de chaves (tais como procedimentos de cópias de segurança e restauro) apropriadas para esse CSP antes de o utilizar com o RMS. |
+
+Planear o restauro de um Sistema do RMS
+---------------------------------------
+
+Se estiver a restaurar um servidor de bases de dados a partir de uma cópia de segurança, certifique-se de que a versão do RMS corresponde à versão utilizada quando a cópia de segurança foi criada. Informe os utilizadores do sistema do RMS de que necessitarão de certificados de contas de direitos novos se começaram a utilizar o sistema depois da criação da cópia de segurança. Nenhum conteúdo protegido será perdido.
+
+Para restaurar um servidor do RMS existente num cluster, reconstrua o servidor, reinstale o RMS e, em seguida, associe o servidor ao cluster através da base de dados existente. Esta actividade não afecta os utilizadores do sistema do RMS porque os servidores de cluster funcionam como se fossem um só servidor.

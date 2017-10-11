@@ -1,0 +1,27 @@
+---
+TOCTitle: Para Mudar o Nome da Base de Dados de Registo
+Title: Para Mudar o Nome da Base de Dados de Registo
+ms:assetid: 'e0e8dc95-767f-4b84-8966-914ab083471b'
+ms:contentKeyID: 18124191
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747780(v=WS.10)'
+---
+
+Para Mudar o Nome da Base de Dados de Registo
+=============================================
+
+Para efectuar este procedimento, tem de iniciar sessão localmente no Web site Administração com uma conta de utilizador de domínio que seja membro do grupo Administradores no computador a que está a aceder. Os membros do grupo de administradores de domínio também podem efectuar este procedimento. Como uma boa prática de segurança, considere a utilização do comando **Executar como** para efectuar este procedimento.
+
+Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
+
+Mudar o Nome da Base de Dados de Registo
+----------------------------------------
+
+#### Para Mudar o Nome da Base de Dados de Registo
+
+1.  Abra a página **Administração Global** e, em seguida, no Web site em que pretende mudar o nome da base de dados de registo, clique em **Administrar o RMS neste Web site**.
+
+2.  Na área **Ligações da administração**, clique em **Definições de registo**.
+
+3.  Na área **Servidor de registo e base de dados**, tome nota do nome do servidor de registo e do nome da base de dados de registo.
+
+4.  No **SQL Server Enterprise Manager**, mude o nome da base de dados de registo no local apropriado tal como descrito em "[Mudar a Localização da Base de Dados de Registo](https://technet.microsoft.com/34ea8045-dc94-422e-9601-29927cfc1534)" anteriormente nesta secção.

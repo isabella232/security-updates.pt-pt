@@ -1,0 +1,21 @@
+---
+TOCTitle: Determinar os Requisitos de Acesso
+Title: Determinar os Requisitos de Acesso
+ms:assetid: 'eb2ce9a5-0430-4811-bd40-4a94a84426a8'
+ms:contentKeyID: 18124237
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747790(v=WS.10)'
+---
+
+Determinar os Requisitos de Acesso
+==================================
+
+Nesta fase do planeamento, o âmbito da implementação do RMS deve já ter sido identificado. Em termos de avaliação da segurança do sistema do RMS, deve considerar os métodos que limitam o âmbito aos participantes e garantem que os dados protegidos com o RMS são também protegidos através da utilização de procedimentos recomendados tradicionais de segurança das informações. Certifique-se também de que o acesso ao servidor do RMS para fins de administração e configuração fica restringido aos administradores fidedignos. Os métodos de segurança de acesso que podem ser utilizados com o RMS incluem:
+
+-   **Listas de controlo de acesso (ACLs)**. Cada um dos serviços Web de RMS e o Web site Administração podem ser protegidos pelas ACLs. Para garantir que apenas os utilizadores autorizados utilizam o serviço do RMS, pode utilizar listas de controlo de acesso para restringir a capacidade dos utilizadores se ligarem aos serviços de certificação e licenciamento do RMS. Isto pode ser útil se só pretender que determinados grupos sejam capazes de criar conteúdo protegido ou de obter licenças para conteúdo protegido.
+-   **Autenticação de cliente**. Pode também requerer a autenticação de smart cards ou de outro cliente quando um utilizador tenta adquirir uma licença de utilização ou um certificado. Isto ajuda a mitigar a hipótese de um utilizador não autorizado abrir conteúdo através de uma sessão de utilizador autorizado.
+-   **Secure Sockets Layer**. Para fornecer uma camada adicional de protecção, pode requerer uma ligação SSL entre os clientes do RMS e o servidor do RMS. Recomenda-se a activação do SSL e a utilização de uma encriptação de 128 bits em cada um dos ficheiros dos serviços Web do RMS. Estes ficheiros têm a extensão de nome de ficheiro .asmx e estão localizados nos directórios virtuais Licensing, Certification e Admin. Se pretender abrir as páginas Web **Administração do RMS** a partir de um browser de um computador remoto, tem de activar SSL. No entanto, mesmo quando o SSL está activado, não é possível abrir a página **Administração Global** a partir do computador remoto.
+    Para mais informações sobre a configuração do SSL nos servidores, consulte a Ajuda do IIS.
+
+Determinadas organizações necessitam de um sistema de licenciamento departamental que esteja isolado dos restantes departamentos e seja seguro. Neste cenário, é possível utilizar um servidor do RMS para fornecer uma forma de estabelecer políticas de gestão de direitos de informação. Se existir um departamento ou uma sucursal na organização que controla conteúdo extremamente confidencial, pondere configurar um servidor ou um cluster de licenciamento separado que efectue uma gestão separada do licenciamento e da publicação desse conteúdo em relação ao resto da organização. Um servidor de licenciamento é pré-inscrito com o servidor de certificação de raiz (ou cluster) que fornece certificação e outros serviços a cada servidor de licenciamento. Contudo, os servidores de licenciamento fornecem os seus próprios serviços de licenciamento e de publicação.
+
+As contas de utilizadores, as ACL e a segurança física são elementos críticos da implementação. Antes de implementar o RMS num ambiente de produção, certifique-se de que avalia e implementa todos os procedimentos recomendados de segurança e o modelo de segurança conforme as necessidades.

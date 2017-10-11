@@ -1,0 +1,18 @@
+---
+TOCTitle: Gerir a Confiança e a Política de Fidedignidade
+Title: Gerir a Confiança e a Política de Fidedignidade
+ms:assetid: '1c96ee74-fd28-4511-be21-087e2b04c3ee'
+ms:contentKeyID: 18123954
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720214(v=WS.10)'
+---
+
+Gerir a Confiança e a Política de Fidedignidade
+===============================================
+
+Pode adicionar um domínio de utilizadores fidedignos, para que o RMS torne fidedignos os certificados de contas de direitos de utilizadores ou grupos que pertencem a outra floresta do Active Directory e que processe os seus pedidos de licenciamento. Pode também configurar os servidores do RMS para tornarem fidedignas as licenças de publicação de outros servidores que fazem parte da mesma instalação e para emitirem licenças de utilização a eles referentes. Pode especificar políticas de fidedignidade para cada servidor na sua implementação do RMS.
+
+Esta secção trata de:
+
+-   [Definir Políticas de Fidedignidade](https://technet.microsoft.com/e8d78300-4b26-4f15-9e4f-5ae9eb827ef9)
+-   [Adicionar e Remover Domínios de Utilizadores Fidedignos](https://technet.microsoft.com/7c440b15-01c4-49f1-b43c-00f67f3388c1)
+-   [Adicionar e Remover Domínios de Publicação Fidedignos](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)

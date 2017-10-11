@@ -1,0 +1,42 @@
+---
+TOCTitle: Proteger a Implementação do RMS
+Title: Proteger a Implementação do RMS
+ms:assetid: '6de8b636-a824-4844-aefc-f26347abfc14'
+ms:contentKeyID: 18124035
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720291(v=WS.10)'
+---
+
+Proteger a Implementação do RMS
+===============================
+
+Uma implementação do RMS é uma mais valia para qualquer empresa que necessite das mesmas medidas de segurança físicas e de rede que se aplicam aos outros servidores essenciais na infra-estrutura. Como parte da implementação, deve identificar as ameaças e as medidas preventivas aplicáveis aos servidores RMS.
+
+O RMS é implementado como um serviço Web, pelo que pode utilizar listas de controlo de acesso e Secure Sockets Layer para controlar o acesso ao RMS, tal como faria com outros serviços Web.
+
+**Restringir o Acesso a Serviços Web do RMS Utilizando ACLs**
+
+Pode restringir o acesso a serviços do RMS utilizando listas de controlo de acesso. Cada uma das raízes virtuais criadas quando o RMS é aprovisionado num Web site tem uma estrutura de pastas correspondente que pode ser protegida. A estrutura de pastas está localizada por predefinição em &lt;unidade do sistema&gt;:\\&lt;*pasta\_raiz\_web*&gt;\\\_wmcs, em que *pasta\_raiz\_web* é o nome da pasta atribuída ao Web site onde aprovisionou o RMS. Alguns dos serviços Web, como o serviço de pré-inscrição, o serviço de certificação de dispositivo móvel e o serviço de certificação do serviço de servidor, são restringidos por predefinição e os utilizadores ou grupos que pretende activar para utilizarem o serviço têm de ser adicionados explicitamente à lista de controlo de acesso.
+
+O serviço de certificação do serviço de servidor fornece certificados de conta de direitos (RAC) que podem ser utilizados no acesso a serviços protegidos pelo RMS, como os serviços de colaboração Web, os servidores de correio e os servidores de gestão de documentos, para suportar a extensão de um sistema RMS, tal como:
+
+-   Um servidor de colaboração de documentos, para o qual os utilizadores podem transferir documentos não protegidos. No entanto, os documentos transferidos recebem automaticamente a protecção do RMS de acordo com as políticas de direitos do tipo de conteúdo. Um exemplo seria o Microsoft Office SharePoint Server 2007.
+-   Um sistema de gestão de documentos que age como repositório geral e arquivo de documentos protegidos e não protegidos. O sistema é capaz de indexar documentos protegidos para fins de pesquisa, preservando a política de direitos definida pelo autor do conteúdo.
+-   Active o servidor de correio para abrir rapidamente o conteúdo protegido e inspeccioná-lo relativamente a vírus, spam, ou como parte de um requisito legal ou da política de correio da empresa.
+
+Uma vez que estes cenários pedem licenças em nome dos utilizadores, deve especificar que a possibilidade dos servidores obterem RACs seja limitada apenas aos servidores na sua empresa que foram aprovados para tal função e que estejam devidamente protegidos.
+
+**Restringir o Acesso a Serviços Web do RMS Utilizando SSL**
+
+Recomenda-se a activação do SSL (Secure Sockets Layer) e a utilização de uma encriptação de 128 bits em cada um dos ficheiros dos serviços Web do RMS. Estes ficheiros têm a extensão de nome de ficheiro .asmx e estão localizados nos directórios virtuais Licensing, Certification e Admin. O SSL requer que o servidor tenha um certificado SSL válido instalado para o Web site. Se aplicar o SSL à pasta da instalação \_wmcs do RMS, as subpastas e os ficheiros herdam a definição. Para mais informações sobre os ficheiros e os directórios virtuais dos serviços Web, consulte "Serviços de Informação Internet" na secção "Referência Técnica do RMS" nesta colecção de documentação.
+
+| ![](images/Cc720291.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Se pretender abrir as páginas de Administração Web do Windows RMS a partir de um browser num computador remoto, tem de activar o SSL. No entanto, mesmo quando o SSL está activado, não é possível abrir a página **Administração Global** a partir do computador remoto. Para mais informações sobre a administração remota do RMS, consulte "Utilizar a Home Page de Administração" na secção "Operações do RMS" nesta colecção de documentação. |
+
+**Definir uma chave de palavra-passe privada segura**
+
+A palavra-passe da chave privada é utilizada para criar e guardar em segurança a chave privada na base de dados de configuração do RMS. Recomenda-se uma palavra-passe segura, de forma a garantir o máximo de segurança. Se a palavra-passe tiver de ser anotada, certifique-se de que a guarda numa área física segura.
+
+| ![](images/Cc720291.Caution(WS.10).gif)Atenção                                                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Se a chave da palavra-passe privada for perdida ou desconhecida e o servidor do RMS ficar inesperadamente offline, terá de desencriptar todos os documentos RMS e encriptar tudo novamente com a nova chave privada. |

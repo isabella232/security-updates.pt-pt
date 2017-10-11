@@ -1,0 +1,25 @@
+---
+TOCTitle: Gerir a Política de Exclusão
+Title: Gerir a Política de Exclusão
+ms:assetid: 'ee31e099-e095-4648-95da-0009fbeb48cb'
+ms:contentKeyID: 18124246
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747730(v=WS.10)'
+---
+
+Gerir a Política de Exclusão
+============================
+
+Pode implementar políticas de exclusão no lado do servidor para recusar pedidos de certificados e de licenças baseados no certificado de conta de direitos ou na versão do cofre. As políticas de exclusão recusam pedidos de novos certificados e novas licenças feitos por principais suspeitos, mas, contrariamente à revogação, as políticas de exclusão não invalidam os principais. Os administradores também podem excluir aplicações potencialmente nocivas ou suspeitas, para que não seja possível desencriptar conteúdo protegido pelo RMS. Além disso, os administradores podem excluir algumas versões de sistemas operativos Windows, impedindo desta forma que conteúdo protegido pelos direitos seja consumido em computadores cliente onde estejam a ser utilizadas essas versões do sistema operativo Windows.
+
+Quando uma entidade é excluída, as licenças de utilização que são criadas pelo servidor do RMS terão essa entidade referida na lista de exclusões. Se, após um determinado período de tempo, decidir eliminar uma entidade que tenha sido previamente incluída numa política de exclusão, pode eliminar a entidade através da página Políticas de exclusão do Web site de administração. Desta forma, a entidade é removida da lista de exclusões. Os novos pedidos de certificação ou de licenciamento não considerarão esta entidade como excluída.
+
+A menos que tenha excluído uma entidade inadvertidamente, recomendamos que só remova uma entidade de uma política de exclusão quando tiver a certeza de que expiraram todos os certificados que foram emitidos antes de a política de exclusão entrar em vigor. De contrário, tanto os certificados antigos como os novos permitirão que o conteúdo seja desencriptado, e isto pode ir contra a vontade da organização.
+
+Este tópico proporciona informações acerca da gestão da política de exclusão. Para obter instruções detalhadas sobre a exclusão de entidades, consulte "[Activar Políticas de Exclusão](https://technet.microsoft.com/bbb1ce50-bc11-41cf-b75b-a6756141908f)" posteriormente nesta secção.
+
+Esta secção trata de:
+
+-   [Excluir Versões do Cofre](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36)
+-   [Excluir Certificados de Conta](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6)
+-   [Excluir Versões do Windows](https://technet.microsoft.com/8b8a184d-ac0e-4a43-822c-d2fae2faf484)
+-   [Excluir Aplicações](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86)

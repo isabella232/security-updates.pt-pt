@@ -1,0 +1,25 @@
+---
+TOCTitle: Inscrição do Servidor de Certificação de Raiz
+Title: Inscrição do Servidor de Certificação de Raiz
+ms:assetid: 'f08bc919-f090-4843-b2ce-b40d558012ce'
+ms:contentKeyID: 18124229
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747734(v=WS.10)'
+---
+
+Inscrição do Servidor de Certificação de Raiz
+=============================================
+
+A inscrição com o Serviço de Inscrição da Microsoft é obrigatória para o primeiro servidor da implementação do RMS. Este servidor, que é um servidor de certificações de raiz, pode ser inscrito automaticamente durante o aprovisionamento se o servidor tiver uma ligação à Internet ou pode ser inscrito manualmente se o servidor fizer parte de uma rede fechada. Para mais informações sobre a inscrição manual do servidor, consulte "Para Inscrever Manualmente um Servidor de Certificações de Raiz" em "Utilizar um Servidor do RMS" nesta colecção de documentação.
+
+O pedido de inscrição utiliza os seguintes parâmetros de entrada:
+
+-   Uma chave pública de 1024 bits. Esta chave pública é a chave pública do RMS.
+-   A versão, o nome e o URL do servidor do RMS a inscrever.
+
+O Serviço de Inscrição da Microsoft utiliza as informações só para criar o certificado de licenciador de servidores e armazena as informações apenas para fins de revogação.
+
+O Serviço de Inscrição da Microsoft devolve uma cadeia de certificados que contém a cadeia de certificados de licenciador do servidor de inscrição, bem como um certificado que está assinado pelo servidor de inscrição. O certificado contém a chave pública do servidor que é assinada com a chave privada de inscrição e a versão e URL do servidor inscrito. O certificado concede ao servidor de certificações de raiz o direito de emitir certificados de licenciador de servidores para servidores de licenciamento, bem como de emitir certificados de licenciador de clientes e licenças de publicação e de utilização.
+
+O certificado de licenciador de servidores é válido por um ano. O período de validade começa quando o certificado é emitido. No fim do período de validade, o certificado pode ser renovado. As licenças e os certificados emitidos pelos servidores são válidos por sete anos. O período de validade começa quando a licença ou o certificado é emitido.
+
+As informações relativas à revogação do certificado são adicionadas ao certificado de licenciador de servidores, tal como especificado no pedido de inscrição. A chave pública do Serviço de Inscrição da Microsoft é adicionada ao certificado como uma chave de revogação. Para além disto, se for especificada uma chave de revogação de terceiros, esta é também adicionada ao certificado como chave de revogação.

@@ -1,0 +1,31 @@
+---
+TOCTitle: Para Adicionar o URL do Cluster de uma Extranet
+Title: Para Adicionar o URL do Cluster de uma Extranet
+ms:assetid: '12c83186-ce9e-4100-bbd1-d87a885331c7'
+ms:contentKeyID: 18123903
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720193(v=WS.10)'
+---
+
+Para Adicionar o URL do Cluster de uma Extranet
+===============================================
+
+Para efectuar este procedimento, tem de iniciar sessão localmente no Web site Administração com uma conta de utilizador de domínio que seja membro do grupo Administradores no computador a que está a aceder. Os membros do grupo de administradores de domínio também podem efectuar este procedimento. Como procedimento de segurança recomendado, considere utilizar o comando **Executar como** para efectuar este procedimento.
+
+Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os Programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
+
+Certifique-se de que regista o URL no sistema de nomes de domínios (DNS), verifique se está a funcionar e se está disponível a partir da extranet da Internet. Deve especificar HTTPS para o URL do cluster caso tenha activado o SSL para os ficheiros de serviços Web.
+
+Se estiver a adicionar um URL do cluster da extranet a um servidor do RMS em utilização, devem ser obtidos novos certificados de licenciadores de clientes através dos clientes do RMS actual para que possam aceder ao cluster da extranet para licenciamento.
+
+Adicionar URL do Cluster de uma Extranet
+----------------------------------------
+
+#### Para Adicionar o URL do Cluster de uma Extranet
+
+1.  Abra a página **Administração Global** e, em seguida, no Web site em que pretende adicionar o URL do cluster de uma extranet, clique em **Administrar o RMS neste Web site**.
+
+2.  Na área **Ligações da administração**, clique em **Definições do URL do cluster da extranet**.
+
+3.  Na área **URL do cluster da extranet**, especifique o URL a partir do qual pretende que os utilizadores externos adquiram as licenças. Também pode seleccionar HTTP ou HTTPS.
+
+4.  Clique em **Submeter**.

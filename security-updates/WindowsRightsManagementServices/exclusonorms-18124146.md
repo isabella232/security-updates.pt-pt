@@ -1,0 +1,16 @@
+---
+TOCTitle: Exclusão no RMS
+Title: Exclusão no RMS
+ms:assetid: 'c17e393e-b6a9-4ae5-aee5-18baa6b32d4d'
+ms:contentKeyID: 18124146
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc747656(v=WS.10)'
+---
+
+Exclusão no RMS
+===============
+
+A exclusão impede principais específicos de adquirirem licenças novas através de um servidor ou cluster específico do RMS. Contrariamente à revogação, a exclusão não invalida os principais. Quaisquer licenças existentes que estejam associadas a principais excluídos continuam a ser válidas; só os novos pedidos de licenciamento é que são recusados.
+
+Cada servidor ou cluster do RMS mantém políticas de exclusão próprias que não são propagadas no sistema. No Web site **Administração do RMS**, os administradores definem as políticas de exclusão para cada servidor ou cluster do RMS.
+
+Os administradores podem excluir principais com base na versão do cofre, na versão do Windows, no certificado de conta de direitos ou na aplicação activada pelo RMS.

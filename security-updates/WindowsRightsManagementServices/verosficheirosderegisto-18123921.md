@@ -1,0 +1,100 @@
+---
+TOCTitle: Ver os Ficheiros de Registo
+Title: Ver os Ficheiros de Registo
+ms:assetid: '2dc9ed54-76d8-4721-ba93-194845de726a'
+ms:contentKeyID: 18123921
+ms:mtpsurl: 'https://technet.microsoft.com/pt-pt/library/Cc720228(v=WS.10)'
+---
+
+Ver os Ficheiros de Registo
+===========================
+
+Dependendo do tipo de implementação do RMS, os ficheiros de registo são armazenados num servidor de bases de dados como o SQL Server ou o Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A. Pode escrever filtros para reduzir as informações armazenadas nos ficheiros de registo. Para mais instruções, consulte a Ajuda do SQL Server Enterprise Manager.
+
+O tamanho de uma entrada de registo típica é de cerca de 300 bytes. A tabela seguinte descreve os campos que são registados.
+
+###  
+
+ 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">HostMachineName</td>
+<td style="border:1px solid black;">Computador que processou o pedido.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">HostMachineRequestId</td>
+<td style="border:1px solid black;">Identificação exclusiva do pedido neste computador. A combinação de HostMachineName e HostMachineRequestId identifica de forma única o pedido através do cluster.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">RequestTime</td>
+<td style="border:1px solid black;">Hora a que o pedido foi recebido, em Tempo Universal Coordenado (Tempo Médio de Greenwich).</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">RequestPath</td>
+<td style="border:1px solid black;">URL relativo para o ficheiro .asmx, por exemplo: /_wmcs/licensing/License.asmx.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">RequestType</td>
+<td style="border:1px solid black;">Nome do método Web invocado, por exemplo: AcquireLicense.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">RequestUserAddress</td>
+<td style="border:1px solid black;">Endereço IP de origem do solicitador.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">RequestUserAgent</td>
+<td style="border:1px solid black;">Valor do cabeçalho HTTP do User Agent.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">AuthenticatedState</td>
+<td style="border:1px solid black;">Indica se a ligação HTTP foi autenticada (Verdadeiro/Falso).</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">SecureConnectionState</td>
+<td style="border:1px solid black;">Indica se é, ou não, uma ligação SSL (Verdadeiro/Falso).</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">AuthenticatedId</td>
+<td style="border:1px solid black;">Nome de início de sessão para os pedidos autenticados. Em branco se AuthenticatedState=Falso.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">ReceivedXrMLDocument</td>
+<td style="border:1px solid black;">Documento XrML recebido do solicitador.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">ReceivedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Cadeia do emissor para o documento XrML recebido.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">IssuedXrMLDocument</td>
+<td style="border:1px solid black;">Documento XrML devolvido ao solicitador.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">IssuedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Cadeia do emissor para o documento XrML emitido.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">SuccessOrFailure</td>
+<td style="border:1px solid black;">Indica se o pedido foi bem sucedido ou se falhou (Com êxito/Sem êxito).</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Metadados</td>
+<td style="border:1px solid black;">Campo dos metadados.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">ErrorInformation</td>
+<td style="border:1px solid black;">Mensagem de erro descritiva, caso tenha ocorrido um erro.</td>
+</tr>
+</tbody>
+</table>
