@@ -4,355 +4,171 @@
 - name: Security Advisories
   href: ./SecurityAdvisories/securityadvisories.md
   items:
-  - name: 2018
-    href: ./SecurityAdvisories/2018/securityadvisories2018.md
-    items:
-    - name: 4092731
-      href: ./SecurityAdvisories/2018/4092731.md
-  - name: 2017
-    href: ./SecurityAdvisories/2017/securityadvisories2017.md
-    items:
-    - name: 3123479
-      href: ./SecurityAdvisories/2017/3123479.md
-    - name: 3214296
-      href: ./SecurityAdvisories/2017/3214296.md
-    - name: 4010323
-      href: ./SecurityAdvisories/2017/4010323.md
-    - name: 4010983
-      href: ./SecurityAdvisories/2017/4010983.md
-    - name: 4021279
-      href: ./SecurityAdvisories/2017/4021279.md
-    - name: 4022344
-      href: ./SecurityAdvisories/2017/4022344.md
-    - name: 4022345
-      href: ./SecurityAdvisories/2017/4022345.md
-    - name: 4025685
-      href: ./SecurityAdvisories/2017/4025685.md
-    - name: 4033453
-      href: ./SecurityAdvisories/2017/4033453.md
-    - name: 4038556
-      href: ./SecurityAdvisories/2017/4038556.md      
-    - name: 4053440
-      href: ./SecurityAdvisories/2017/4053440.md
-    - name: 4056318
-      href: ./SecurityAdvisories/2017/4056318.md
-  - name: 2016
-    href: ./SecurityAdvisories/2016/securityadvisories2016.md
-    items:
-    - name: 3181759
-      href: ./SecurityAdvisories/2016/3181759.md
-    - name: 3174644
-      href: ./SecurityAdvisories/2016/3174644.md
-    - name: 3179528
-      href: ./SecurityAdvisories/2016/3179528.md
-    - name: 3155527
-      href: ./SecurityAdvisories/2016/3155527.md
-    - name: 3152550
-      href: ./SecurityAdvisories/2016/3152550.md
-    - name: 3137909
-      href: ./SecurityAdvisories/2016/3137909.md
-    - name: 3118753
-      href: ./SecurityAdvisories/2016/3118753.md
-    - name: 3109853
-      href: ./SecurityAdvisories/2016/3109853.md
-    - name: 2880823
-      href: ./SecurityAdvisories/2016/2880823.md
-    - name: 2871997
-      href: ./SecurityAdvisories/2016/2871997.md
-    - name: 2755801
-      href: ./SecurityAdvisories/2016/2755801.md
-  - name: 2015
-    href: ./SecurityAdvisories/2015/securityadvisories2015.md
-    items:
-    - name: 3123040
-      href: ./SecurityAdvisories/2015/3123040.md
-    - name: 3119884
-      href: ./SecurityAdvisories/2015/3119884.md
-    - name: 3108638
-      href: ./SecurityAdvisories/2015/3108638.md
-    - name: 3097966
-      href: ./SecurityAdvisories/2015/3097966.md
-    - name: 3083992
-      href: ./SecurityAdvisories/2015/3083992.md
-    - name: 3074162
-      href: ./SecurityAdvisories/2015/3074162.md
-    - name: 3057154
-      href: ./SecurityAdvisories/2015/3057154.md
-    - name: 3050995
-      href: ./SecurityAdvisories/2015/3050995.md
-    - name: 3046310
-      href: ./SecurityAdvisories/2015/3046310.md
-    - name: 3046015
-      href: ./SecurityAdvisories/2015/3046015.md
-    - name: 3045755
-      href: ./SecurityAdvisories/2015/3045755.md
-    - name: 3042058
-      href: ./SecurityAdvisories/2015/3042058.md
-    - name: 3033929
-      href: ./SecurityAdvisories/2015/3033929.md
-    - name: 3009008
-      href: ./SecurityAdvisories/2015/3009008.md
-    - name: 3004375
-      href: ./SecurityAdvisories/2015/3004375.md
-    - name: 2962393
-      href: ./SecurityAdvisories/2015/2962393.md
-    - name: 2960358
-      href: ./SecurityAdvisories/2015/2960358.md
-  - name: 2014
-    href: ./SecurityAdvisories/2014/securityadvisories2014.md
-    items:
-    - name: 3010060
-      href: ./SecurityAdvisories/2014/3010060.md
-    - name: 2982792
-      href: ./SecurityAdvisories/2014/2982792.md
-    - name: 2977292
-      href: ./SecurityAdvisories/2014/2977292.md
-    - name: 2974294
-      href: ./SecurityAdvisories/2014/2974294.md
-    - name: 2963983
-      href: ./SecurityAdvisories/2014/2963983.md
-    - name: 2962824
-      href: ./SecurityAdvisories/2014/2962824.md
-    - name: 2953095
-      href: ./SecurityAdvisories/2014/2953095.md
-    - name: 2949927
-      href: ./SecurityAdvisories/2014/2949927.md
-    - name: 2934088
-      href: ./SecurityAdvisories/2014/2934088.md
-    - name: 2916652
-      href: ./SecurityAdvisories/2014/2916652.md
-    - name: 2915720
-      href: ./SecurityAdvisories/2014/2915720.md
-    - name: 2914486
-      href: ./SecurityAdvisories/2014/2914486.md
-    - name: 2871690
-      href: ./SecurityAdvisories/2014/2871690.md
-    - name: 2862973
-      href: ./SecurityAdvisories/2014/2862973.md
-    - name: 2862152
-      href: ./SecurityAdvisories/2014/2862152.md
-  - name: 2013
-    href: ./SecurityAdvisories/2013/securityadvisories2013.md
-    items:
-    - name: 2905247
-      href: ./SecurityAdvisories/2013/2905247.md
-    - name: 2896666
-      href: ./SecurityAdvisories/2013/2896666.md
-    - name: 2887505
-      href: ./SecurityAdvisories/2013/2887505.md
-    - name: 2876146
-      href: ./SecurityAdvisories/2013/2876146.md
-    - name: 2868725
-      href: ./SecurityAdvisories/2013/2868725.md
-    - name: 2861855
-      href: ./SecurityAdvisories/2013/2861855.md
-    - name: 2854544
-      href: ./SecurityAdvisories/2013/2854544.md
-    - name: 2847140
-      href: ./SecurityAdvisories/2013/2847140.md
-    - name: 2846338
-      href: ./SecurityAdvisories/2013/2846338.md
-    - name: 2820197
-      href: ./SecurityAdvisories/2013/2820197.md
-    - name: 2819682
-      href: ./SecurityAdvisories/2013/2819682.md
-    - name: 2798897
-      href: ./SecurityAdvisories/2013/2798897.md
-    - name: 2794220
-      href: ./SecurityAdvisories/2013/2794220.md
-    - name: 2719662
-      href: ./SecurityAdvisories/2013/2719662.md
   - name: 2012
     href: ./SecurityAdvisories/2012/securityadvisories2012.md
     items:
-    - name: 2757760
-      href: ./SecurityAdvisories/2012/2757760.md
-    - name: 2749655
-      href: ./SecurityAdvisories/2012/2749655.md
-    - name: 2743314
-      href: ./SecurityAdvisories/2012/2743314.md
-    - name: 2737111
-      href: ./SecurityAdvisories/2012/2737111.md
-    - name: 2736233
-      href: ./SecurityAdvisories/2012/2736233.md
-    - name: 2728973
-      href: ./SecurityAdvisories/2012/2728973.md
-    - name: 2719615
-      href: ./SecurityAdvisories/2012/2719615.md
-    - name: 2718704
-      href: ./SecurityAdvisories/2012/2718704.md
-    - name: 2695962
-      href: ./SecurityAdvisories/2012/2695962.md
-    - name: 2661254
-      href: ./SecurityAdvisories/2012/2661254.md
     - name: 2647518
       href: ./SecurityAdvisories/2012/2647518.md
+    - name: 2695962
+      href: ./SecurityAdvisories/2012/2695962.md
+    - name: 2718704
+      href: ./SecurityAdvisories/2012/2718704.md
+    - name: 2719615
+      href: ./SecurityAdvisories/2012/2719615.md
   - name: 2011
     href: ./SecurityAdvisories/2011/securityadvisories2011.md
     items:
-    - name: 2659883
-      href: ./SecurityAdvisories/2011/2659883.md
-    - name: 2641690
-      href: ./SecurityAdvisories/2011/2641690.md
-    - name: 2639658
-      href: ./SecurityAdvisories/2011/2639658.md
-    - name: 2607712
-      href: ./SecurityAdvisories/2011/2607712.md
-    - name: 2588513
-      href: ./SecurityAdvisories/2011/2588513.md
-    - name: 2562937
-      href: ./SecurityAdvisories/2011/2562937.md
-    - name: 2524375
-      href: ./SecurityAdvisories/2011/2524375.md
-    - name: 2506014
-      href: ./SecurityAdvisories/2011/2506014.md
-    - name: 2501696
-      href: ./SecurityAdvisories/2011/2501696.md
-    - name: 2501584
-      href: ./SecurityAdvisories/2011/2501584.md
-    - name: 2491888
-      href: ./SecurityAdvisories/2011/2491888.md
     - name: 2490606
       href: ./SecurityAdvisories/2011/2490606.md
+    - name: 2501584
+      href: ./SecurityAdvisories/2011/2501584.md
+    - name: 2506014
+      href: ./SecurityAdvisories/2011/2506014.md
+    - name: 2524375
+      href: ./SecurityAdvisories/2011/2524375.md
+    - name: 2588513
+      href: ./SecurityAdvisories/2011/2588513.md
+    - name: 2607712
+      href: ./SecurityAdvisories/2011/2607712.md
+    - name: 2639658
+      href: ./SecurityAdvisories/2011/2639658.md
+    - name: 2641690
+      href: ./SecurityAdvisories/2011/2641690.md
+    - name: 2659883
+      href: ./SecurityAdvisories/2011/2659883.md
   - name: 2010
     href: ./SecurityAdvisories/2010/securityadvisories2010.md
     items:
-    - name: 2488013
-      href: ./SecurityAdvisories/2010/2488013.md
-    - name: 2458511
-      href: ./SecurityAdvisories/2010/2458511.md
-    - name: 2416728
-      href: ./SecurityAdvisories/2010/2416728.md
-    - name: 2401593
-      href: ./SecurityAdvisories/2010/2401593.md
-    - name: 2286198
-      href: ./SecurityAdvisories/2010/2286198.md
-    - name: 2269637
-      href: ./SecurityAdvisories/2010/2269637.md
-    - name: 2264072
-      href: ./SecurityAdvisories/2010/2264072.md
-    - name: 2219475
-      href: ./SecurityAdvisories/2010/2219475.md
-    - name: 2028859
-      href: ./SecurityAdvisories/2010/2028859.md
-    - name: 983438
-      href: ./SecurityAdvisories/2010/983438.md
-    - name: 981374
-      href: ./SecurityAdvisories/2010/981374.md
-    - name: 981169
-      href: ./SecurityAdvisories/2010/981169.md
-    - name: 980088
-      href: ./SecurityAdvisories/2010/980088.md
-    - name: 979682
-      href: ./SecurityAdvisories/2010/979682.md
-    - name: 979352
-      href: ./SecurityAdvisories/2010/979352.md
-    - name: 979267
-      href: ./SecurityAdvisories/2010/979267.md
     - name: 977377
       href: ./SecurityAdvisories/2010/977377.md
+    - name: 979267
+      href: ./SecurityAdvisories/2010/979267.md
+    - name: 979352
+      href: ./SecurityAdvisories/2010/979352.md
+    - name: 979682
+      href: ./SecurityAdvisories/2010/979682.md
+    - name: 980088
+      href: ./SecurityAdvisories/2010/980088.md
+    - name: 981169
+      href: ./SecurityAdvisories/2010/981169.md
+    - name: 981374
+      href: ./SecurityAdvisories/2010/981374.md
+    - name: 983438
+      href: ./SecurityAdvisories/2010/983438.md
+    - name: 2028859
+      href: ./SecurityAdvisories/2010/2028859.md
+    - name: 2219475
+      href: ./SecurityAdvisories/2010/2219475.md
+    - name: 2264072
+      href: ./SecurityAdvisories/2010/2264072.md
+    - name: 2269637
+      href: ./SecurityAdvisories/2010/2269637.md
+    - name: 2286198
+      href: ./SecurityAdvisories/2010/2286198.md
+    - name: 2401593
+      href: ./SecurityAdvisories/2010/2401593.md
+    - name: 2416728
+      href: ./SecurityAdvisories/2010/2416728.md
+    - name: 2458511
+      href: ./SecurityAdvisories/2010/2458511.md
+    - name: 2488013
+      href: ./SecurityAdvisories/2010/2488013.md
   - name: 2009
     items:
-    - name: 977981
-      href: ./SecurityAdvisories/2009/977981.md
-    - name: 977544
-      href: ./SecurityAdvisories/2009/977544.md
-    - name: 975497
-      href: ./SecurityAdvisories/2009/975497.md
-    - name: 975191
-      href: ./SecurityAdvisories/2009/975191.md
-    - name: 974926
-      href: ./SecurityAdvisories/2009/974926.md
-    - name: 973882
-      href: ./SecurityAdvisories/2009/973882.md
-    - name: 973811
-      href: ./SecurityAdvisories/2009/973811.md
-    - name: 973472
-      href: ./SecurityAdvisories/2009/973472.md
-    - name: 972890
-      href: ./SecurityAdvisories/2009/972890.md
-    - name: 971888
-      href: ./SecurityAdvisories/2009/971888.md
-    - name: 971778
-      href: ./SecurityAdvisories/2009/971778.md
-    - name: 971492
-      href: ./SecurityAdvisories/2009/971492.md
-    - name: 969898
-      href: ./SecurityAdvisories/2009/969898.md
-    - name: 969136
-      href: ./SecurityAdvisories/2009/969136.md
-    - name: 968272
-      href: ./SecurityAdvisories/2009/968272.md
-    - name: 967940
-      href: ./SecurityAdvisories/2009/967940.md
-    - name: 960715
-      href: ./SecurityAdvisories/2009/960715.md
     - name: 954157
       href: ./SecurityAdvisories/2009/954157.md
+    - name: 960715
+      href: ./SecurityAdvisories/2009/960715.md
+    - name: 967940
+      href: ./SecurityAdvisories/2009/967940.md
+    - name: 968272
+      href: ./SecurityAdvisories/2009/968272.md
+    - name: 969136
+      href: ./SecurityAdvisories/2009/969136.md
+    - name: 969898
+      href: ./SecurityAdvisories/2009/969898.md
+    - name: 971492
+      href: ./SecurityAdvisories/2009/971492.md
+    - name: 971778
+      href: ./SecurityAdvisories/2009/971778.md
+    - name: 971888
+      href: ./SecurityAdvisories/2009/971888.md
+    - name: 972890
+      href: ./SecurityAdvisories/2009/972890.md
+    - name: 973472
+      href: ./SecurityAdvisories/2009/973472.md
+    - name: 973811
+      href: ./SecurityAdvisories/2009/973811.md
+    - name: 974926
+      href: ./SecurityAdvisories/2009/974926.md
+    - name: 975191
+      href: ./SecurityAdvisories/2009/975191.md
+    - name: 975497
+      href: ./SecurityAdvisories/2009/975497.md
+    - name: 977544
+      href: ./SecurityAdvisories/2009/977544.md
+    - name: 977981
+      href: ./SecurityAdvisories/2009/977981.md
   - name: 2008
     items:
-    - name: 961509
-      href: ./SecurityAdvisories/2008/961509.md
-    - name: 961051
-      href: ./SecurityAdvisories/2008/961051.md
-    - name: 961040
-      href: ./SecurityAdvisories/2008/961040.md
-    - name: 960906
-      href: ./SecurityAdvisories/2008/960906.md
-    - name: 958963
-      href: ./SecurityAdvisories/2008/958963.md
-    - name: 956391
-      href: ./SecurityAdvisories/2008/956391.md
-    - name: 956187
-      href: ./SecurityAdvisories/2008/956187.md
-    - name: 955179
-      href: ./SecurityAdvisories/2008/955179.md
-    - name: 954960
-      href: ./SecurityAdvisories/2008/954960.md
-    - name: 954474
-      href: ./SecurityAdvisories/2008/954474.md
-    - name: 954462
-      href: ./SecurityAdvisories/2008/954462.md
-    - name: 953839
-      href: ./SecurityAdvisories/2008/953839.md
-    - name: 953818
-      href: ./SecurityAdvisories/2008/953818.md
-    - name: 953635
-      href: ./SecurityAdvisories/2008/953635.md
-    - name: 953252
-      href: ./SecurityAdvisories/2008/953252.md
-    - name: 951306
-      href: ./SecurityAdvisories/2008/951306.md
-    - name: 950627
-      href: ./SecurityAdvisories/2008/950627.md
-    - name: 947563
-      href: ./SecurityAdvisories/2008/947563.md
     - name: 943411
       href: ./SecurityAdvisories/2008/943411.md
+    - name: 947563
+      href: ./SecurityAdvisories/2008/947563.md
+    - name: 950627
+      href: ./SecurityAdvisories/2008/950627.md
+    - name: 951306
+      href: ./SecurityAdvisories/2008/951306.md
+    - name: 953635
+      href: ./SecurityAdvisories/2008/953635.md
+    - name: 953839
+      href: ./SecurityAdvisories/2008/953839.md
+    - name: 954462
+      href: ./SecurityAdvisories/2008/954462.md
+    - name: 954474
+      href: ./SecurityAdvisories/2008/954474.md
+    - name: 954960
+      href: ./SecurityAdvisories/2008/954960.md
+    - name: 955179
+      href: ./SecurityAdvisories/2008/955179.md
+    - name: 956187
+      href: ./SecurityAdvisories/2008/956187.md
+    - name: 956391
+      href: ./SecurityAdvisories/2008/956391.md
+    - name: 958963
+      href: ./SecurityAdvisories/2008/958963.md
+    - name: 960906
+      href: ./SecurityAdvisories/2008/960906.md
+    - name: 961040
+      href: ./SecurityAdvisories/2008/961040.md
+    - name: 961051
+      href: ./SecurityAdvisories/2008/961051.md
+    - name: 961509
+      href: ./SecurityAdvisories/2008/961509.md
   - name: 2007
     items:
-    - name: 945713
-      href: ./SecurityAdvisories/2007/945713.md
-    - name: 944653
-      href: ./SecurityAdvisories/2007/944653.md
-    - name: 943521
-      href: ./SecurityAdvisories/2007/943521.md
-    - name: 937696
-      href: ./SecurityAdvisories/2007/937696.md
-    - name: 935964
-      href: ./SecurityAdvisories/2007/935964.md
-    - name: 935423
-      href: ./SecurityAdvisories/2007/935423.md
-    - name: 933052
-      href: ./SecurityAdvisories/2007/933052.md
-    - name: 932596
-      href: ./SecurityAdvisories/2007/932596.md
-    - name: 932553
-      href: ./SecurityAdvisories/2007/932553.md
-    - name: 932114
-      href: ./SecurityAdvisories/2007/932114.md
     - name: 927891
       href: ./SecurityAdvisories/2007/927891.md
+    - name: 932114
+      href: ./SecurityAdvisories/2007/932114.md
+    - name: 932553
+      href: ./SecurityAdvisories/2007/932553.md
+    - name: 932596
+      href: ./SecurityAdvisories/2007/932596.md
+    - name: 933052
+      href: ./SecurityAdvisories/2007/933052.md
+    - name: 935423
+      href: ./SecurityAdvisories/2007/935423.md
+    - name: 935964
+      href: ./SecurityAdvisories/2007/935964.md
+    - name: 937696
+      href: ./SecurityAdvisories/2007/937696.md
+    - name: 943521
+      href: ./SecurityAdvisories/2007/943521.md
+    - name: 944653
+      href: ./SecurityAdvisories/2007/944653.md
+    - name: 945713
+      href: ./SecurityAdvisories/2007/945713.md
   - name: 2006
     items:
     - name: 929433
