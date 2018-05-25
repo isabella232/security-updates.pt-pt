@@ -231,7 +231,7 @@
   href: ./SecurityBulletinSummaries/securitybulletinsummaries.md
   items:
   - name: 2012
-    href: ./SecurityBulletinSummaries/2012/2012bulletinsummaries.md
+    href: 
     items:
     - name: ms12-may
       href: ./SecurityBulletinSummaries/2012/ms12-may.md
@@ -246,7 +246,7 @@
     - name: ms12-apr
       href: ./SecurityBulletinSummaries/2012/ms12-apr.md
   - name: 2011
-    href: ./SecurityBulletinSummaries/2011/2011bulletinsummaries.md
+    href: 
     items:
     - name: ms11-sep-sum
       href: ./SecurityBulletinSummaries/2011/ms11-sep-sum.md
@@ -277,7 +277,7 @@
     - name: ms11-abr
       href: ./SecurityBulletinSummaries/2011/ms11-abr.md
   - name: 2010
-    href: ./SecurityBulletinSummaries/2010/2010bulletinsummaries.md
+    href: 
     items:
     - name: ms10-sep
       href: ./SecurityBulletinSummaries/2010/ms10-sep.md
@@ -361,7 +361,7 @@
   href: ./SecurityBulletins/securitybulletins.md
   items:
   - name: 2012
-    href: ./SecurityBulletins/2012/securitybulletins2012.md
+    href: 
     items:
     - name: ms12-043
       href: ./SecurityBulletins/2012/ms12-043.md
@@ -450,7 +450,7 @@
     - name: ms12-001
       href: ./SecurityBulletins/2012/ms12-001.md
   - name: 2011
-    href: ./SecurityBulletins/2011/securitybulletins2011.md
+    href: 
     items:
     - name: ms11-100
       href: ./SecurityBulletins/2011/ms11-100.md
@@ -653,7 +653,7 @@
     - name: ms11-001
       href: ./SecurityBulletins/2011/ms11-001.md
   - name: 2010
-    href: ./SecurityBulletins/2010/securitybulletins2010.md
+    href: 
     items:
     - name: ms10-106
       href: ./SecurityBulletins/2010/ms10-106.md
