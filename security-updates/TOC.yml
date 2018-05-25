@@ -2,7 +2,7 @@
   href: index.md
   items:
 - name: Security Advisories
-  href: ./SecurityAdvisories/securityadvisories.md
+  href: 
   items:
   - name: 2012
     href: ./SecurityAdvisories/2012/securityadvisories2012.md
@@ -228,7 +228,7 @@
     - name: 906267
       href: ./SecurityAdvisories/2005/906267.md
 - name: Security Bulletin Summaries
-  href: ./SecurityBulletinSummaries/securitybulletinsummaries.md
+  href: 
   items:
   - name: 2012
     href: 
@@ -358,7 +358,7 @@
     - name: ms06-apr
       href: ./SecurityBulletinSummaries/2006/ms06-apr.md
 - name: Security Bulletins
-  href: ./SecurityBulletins/securitybulletins.md
+  href: 
   items:
   - name: 2012
     href: 
