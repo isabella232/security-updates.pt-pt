@@ -11,7 +11,7 @@ Planear uma Topologia Básica do RMS
 
 A topologia básica do RMS é composta por um ou mais servidores físicos que agem como cluster de certificações de raiz. Este cluster é utilizado para certificação, licenciamento e publicação na organização. Em todas as implementações, à excepção das mais pequenas, são normalmente configurados vários servidores físicos como um cluster com um só URL. Este cluster é criado através do aprovisionamento do primeiro servidor para criação do servidor de certificações de raiz e através da adição de servidores ao cluster até obter o número de servidores de certificações de raiz necessários ao suporte da actividade projectada. A figura seguinte ilustra este tipo de topologia.
 
-![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
+![](/security-updates/images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
 
 Quando se associam servidores a um cluster, eles partilham as mesmas bases de dados de configuração e de registo, que são bases de dados do SQL Server. O SQL Server pode residir no servidor de certificações de raiz ou num servidor diferente.
 

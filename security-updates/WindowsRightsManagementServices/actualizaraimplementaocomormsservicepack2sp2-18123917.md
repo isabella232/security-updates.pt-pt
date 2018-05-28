@@ -13,7 +13,7 @@ Esta secção fornece informações que ajudam o utilizador a instalar os Servi�
 
 Pode instalar o RMS com SP2 sem remover a instalação do RMS com SP1 existente. O programa de configuração para o RMS com SP2 detecta se o RMS com SP1 se encontra instalado e adiciona as funcionalidades e definições adicionais consoante necessário.
 
-| ![](images/Cc720225.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc720225.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Não é suportado um caminho de actualização do servidor do RMS sem qualquer Service Pack para o RMS com SP2. Se estiver a utilizar um servidor do RMS sem qualquer Service Pack, terá de proceder à actualização para o RMS com SP1 antes de actualizar para o RMS com SP2. O cliente do RMS pode ser actualizado a partir de qualquer versão anterior do cliente do RMS. |
 

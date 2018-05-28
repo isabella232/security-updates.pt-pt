@@ -26,7 +26,7 @@ Quando o RMS cria estes ficheiros, as listas DACL dos ficheiros são definidas p
 
 Após criar o grupo, pode modificar a lista DACL para o ficheiro ServerCertification.asmx para permitir que o grupo tenha permissão de Leitura & Execução no serviço. Também deve adicionar o Grupo de Serviços do RMS à lista DACL com a permissão de Leitura & Execução.
 
-| ![](images/Cc747593.note(WS.10).gif)Nota                                                                                  |
+| ![](/security-updates/images/Cc747593.note(WS.10).gif)Nota                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se existir mais do que um servidor RMS no cluster, a lista DACL no ficheiro ServerCertification.asmx terá de ser alterada em cada servidor no cluster. |
 
@@ -34,6 +34,6 @@ Para o Microsoft Exchange Server 2007, o objecto de computador do Active Direct
 
 Para o Office SharePoint Server 2007, deve adicionar o objecto de computador do Active Directory do servidor que utiliza o Office SharePoint Server 2007 ao grupo de serviços do servidor. Se o seu servidor do Office SharePoint Server 2007 estiver configurado para utilizar o servidor predefinido no Active Directory, deve adicionar o Grupo de Serviços do RMS e o grupo criado para os serviços de servidor ao ficheiro ServiceLocater.asmx e autorizar a permissão de Leitura & Execução.
 
-| ![](images/Cc747593.Important(WS.10).gif)Importante                                                                                                                                                               |
+| ![](/security-updates/images/Cc747593.Important(WS.10).gif)Importante                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os Serviços de Informação Internet (IIS) devem ser reiniciados após alterar a lista DACL nos ficheiros ServerCertification.asmx e ServiceLocater.asmx. Para reiniciar o IIS, execute o comando **iisreset** a partir de uma linha de comandos. |

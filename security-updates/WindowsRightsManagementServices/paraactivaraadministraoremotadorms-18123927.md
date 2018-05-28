@@ -24,7 +24,7 @@ Activar a Administração Remota do RMS
 
 4.  Clique com o botão direito do rato na pasta **\_wmcs** e, em seguida, clique em **Propriedades**. No separador **Segurança de directório**, em **Comunicações seguras**, clique em **Editar**, em **Exigir canal seguro (SSL)** e, em seguida, clique em **OK**. Isto aplica a protecção Secure Sockets Layer (SSL) aos serviços Web do RMS. Para mais informações sobre como gerir Web sites utilizando o IIS, consulte a ajuda do IIS.
 
-    | ![](images/Cc720181.Important(WS.10).gif)Importante                                                                                                                                                                                              |
+    | ![](/security-updates/images/Cc720181.Important(WS.10).gif)Importante                                                                                                                                                                                              |
     |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Pode proteger os serviços Web do RMS com o SSL para maior segurança e para activar o acesso HTTP remoto às páginas de Web da administração do RMS. Se pretender activar o SSL para os serviços Web do RMS, obtenha e instale um certificado de servidor da Web de SSL válido. |
 

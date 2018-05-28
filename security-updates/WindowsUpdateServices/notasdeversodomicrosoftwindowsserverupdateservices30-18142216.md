@@ -25,7 +25,7 @@ Estas notas de versão descrevem problemas conhecidos que afectam o Microsoft® 
 -   WSUS 3.0 no Windows Server® 2008
 -   O WSUS 3.0 no Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Existe uma cópia deste documento disponível para transferência no [Centro de Transferências da Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). Esta página poderá estar em inglês. |
 
@@ -78,11 +78,11 @@ Se tiver dois ou mais Web sites a serem executados na porta 80 (por exemplo, Win
 
 Quando instalar o WSUS 3.0, pode ser necessário desactivar programas antivírus, antes de poder efectuar a instalação com êxito. Depois de desactivar o programa antivírus, reinicie o computador antes de iniciar a instalação do WSUS. Reiniciar o computador impede que os ficheiros sejam bloqueados quando o processo de instalação necessitar de aceder aos mesmos. Após concluir a instalação, certifique-se de que reactiva o programa antivírus. Visite o Web site do fornecedor do programa antivírus para ter os passos exactos de desactivação e reactivação do programa de antivírus e respectiva versão.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                               |
+| ![](/security-updates/images/Cc708491.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Esta solução pode tornar o seu computador ou rede mais vulnerável a ataques de utilizadores ou software malicioso, tal como os vírus. Não recomendamos esta solução, mas estamos a fornecer estas informações para que possa implementá-la conforme entender. Utilize esta solução por sua conta e risco. |
 
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Um programa antivírus destina-se a ajudá-lo a proteger o computador de vírus. Não transfira ou abra ficheiros a partir de origens que não considera fidedignas, não visite Web sites que não considera fidedignos, nem abra anexos de correio electrónico quando o seu programa antivírus estiver desactivado. |
 
@@ -200,7 +200,7 @@ Consulte o Ponto 1: O IIS tem de estar instalado.</td>
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                              |  
+| ![](/security-updates/images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                              |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Se o WSUS 2.0 já tiver sido instalado anteriormente e estiver a utilizar o SQL Server 2000, SQL Server Desktop Engine 2000 ou qualquer base de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 em Windows Server 2008), o programa de instalação do WSUS 3.0 fará a instalação de Base de dados interna do Windows® e migrará para aí a base de dados. |
   
@@ -213,7 +213,7 @@ Seguem-se os requisitos mínimos de espaço em disco para instalação do Window
 -   2 GB para o volume no qual os ficheiros de base de dados serão armazenados  
 -   20 GB para o volume em que o conteúdo é armazenado
   
-| ![](images/Cc708491.Important(WS.10).gif)Importante                                  |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Importante                                  |  
 |-------------------------------------------------------------------------------------------------------------------|  
 | Não é possível instalar o WSUS 3.0 em unidades comprimidas. Verifique se a unidade escolhida não está comprimida. |
   
@@ -368,7 +368,7 @@ Esta tabela mostra as propriedades de linha de comandos para o WSUS 3.0.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708491.Important(WS.10).gif)Importante                                                                                                                                    |  
+| ![](/security-updates/images/Cc708491.Important(WS.10).gif)Importante                                                                                                                                    |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Se instalar o WSUS 3.0 no modo silencioso (/q) e o computador não tiver todos os pré-requisitos instalados, a instalação irá gerar um ficheiro com o nome WSUSPreReqCheck.xml e irá guardá-lo no directório %TEMP%. |
   

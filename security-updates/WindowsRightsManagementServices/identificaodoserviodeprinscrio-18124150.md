@@ -23,6 +23,6 @@ Quando um servidor de licenciamento pede o serviço de pré-inscrição, anexa o
 
 http://nome\_servidor/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Nota                    |
+| ![](/security-updates/images/Cc747641.note(WS.10).gif)Nota                    |
 |------------------------------------------------------------------------------------------|
 | Se activou o SSL no servidor do RMS, estes URL utilizam o protocolo de ligação https://. |

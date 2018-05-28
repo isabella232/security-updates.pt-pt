@@ -13,7 +13,7 @@ Quando implementa o RMS, tem de instalar uma aplicação activada pelo RMS nos c
 
 Para que uma aplicação seja activada pelo RMS, tem de integrar o cliente RMS nas respectivas operações. Antes do Windows Vista®, o cliente RMS está disponível como um componente do Windows transferido separadamente a partir do Centro de Transferências da Microsoft. No entanto, se não pretender transferir o cliente separadamente para cada computador cliente da empresa, pode utilizar o Microsoft Systems Management Server (SMS), a Política de Grupo ou scripts para automatizar o fornecimento dos clientes do RMS aos computadores clientes.
 
-| ![](images/Cc747703.Important(WS.10).gif)Importante                     |
+| ![](/security-updates/images/Cc747703.Important(WS.10).gif)Importante                     |
 |------------------------------------------------------------------------------------------------------|
 | O cliente RMS está incorporado no Windows Vista. Assim, já não é necessária uma instalação separada. |
 
@@ -26,7 +26,7 @@ Quando utilizar o SMS para distribuir o cliente RMS, efectue o seguinte:
 -   Utilize os ficheiros do Windows Installer para a definição e origem do pacote.
 -   Anuncie a disponibilidade dos pacotes na rede.
 
-| ![](images/Cc747703.note(WS.10).gif)Nota                                                                                                                                    |
+| ![](/security-updates/images/Cc747703.note(WS.10).gif)Nota                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A instalação do software requer direitos administrativos. A política de segurança da organização pode exigir que a instalação do software do cliente RMS seja efectuada por um administrador do sistema. |
 

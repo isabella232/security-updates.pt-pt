@@ -23,6 +23,6 @@ http://*nome\_servidor*/\_wmcs/Certification/Activation.asmx
 
 Os clientes executados fora da rede de empresa utilizam a identificação de serviço para localizarem o serviço de activação. Para mais informações, consulte "[Publicação de Serviços Alojados na Microsoft](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)" anteriormente nesta secção.
 
-| ![](images/Cc747697.note(WS.10).gif)Nota                    |
+| ![](/security-updates/images/Cc747697.note(WS.10).gif)Nota                    |
 |------------------------------------------------------------------------------------------|
 | Se activou o SSL no servidor do RMS, estes URL utilizam o protocolo de ligação https://. |

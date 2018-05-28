@@ -37,7 +37,7 @@ Para adicionar servidores a clusters de certificação e de licenciamento é nec
 -   Se estiver a aprovisionar um servidor de licenciamento individual, especifique uma base de dados de configuração, uma conta de serviço do RMS, o URL do cluster e as informações de protecção de chave privada tal como foram indicados para o servidor de certificações de raiz. No entanto, não especifique uma política de revogação de certificados de licenciadores de servidores, uma vez que essa política é controlada pelo servidor de certificações de raiz.
 -   Se estiver a aprovisionar um servidor enquanto membro de um cluster, as únicas informações que tem de especificar durante o aprovisionamento são a conta de serviço do RMS, a base de dados de configuração e a palavra-passe da protecção de chave privada (ou utilize o CSP e a chave privada especificados para o cluster existente). Todos os servidores que fazem parte de um cluster partilham o mesmo certificado de licenciador de servidores e o mesmo par de chaves de servidor.
 
-| ![](images/Cc720189.Important(WS.10).gif)Importante                                                                                            |
+| ![](/security-updates/images/Cc720189.Important(WS.10).gif)Importante                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Só inicie a instalação do RMS noutros servidores depois de concluir a configuração do RMS no primeiro servidor, incluindo a instalação e o aprovisionamento desse servidor. |
 

@@ -11,7 +11,7 @@ Configurar uma Infra-estrutura Básica
 
 A forma como configura a infra-estrutura depende dos requisitos do sistema para a instalação do RMS e dos procedimentos recomendados para a configuração da infra-estrutura. O ambiente básico do lado do servidor necessário para suportar o RMS é composto por um controlador de domínio, um servidor de bases de dados e um servidor do RMS configurado como servidor de certificações de raiz. Os tópicos seguintes fornecem procedimentos de configuração para estes componentes da infra-estrutura e também informações adicionais relacionadas com a implementação dos mesmos.
 
-| ![](images/Cc720243.note(WS.10).gif)Nota                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc720243.note(WS.10).gif)Nota                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A implementação do RMS requer a instalação do software de cliente do RMS nos computadores clientes que serão utilizados com o servidor do RMS. Pode transferir o cliente do RMS a partir do [Web site da Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). |
 

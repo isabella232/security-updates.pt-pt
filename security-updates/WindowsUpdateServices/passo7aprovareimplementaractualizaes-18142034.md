@@ -25,7 +25,7 @@ O Passo 7 contém os seguintes procedimentos:
 
 4.  Na lista **Definições de aprovação de grupo para as actualizações seleccionadas**, clique em **Instalar** na coluna **Aprovação** do grupo Teste e, em seguida, clique em **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Nota                                                                                                                                                                |
+| ![](/security-updates/images/Cc720504.note(WS.10).gif)Nota                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Existem muitas opções associadas à aprovação de actualizações como, por exemplo, definir prazos e desinstalar actualizações. Estão opções são debatidas na documentação “Microsoft Windows Server Update Services Operations Guide”. |
 

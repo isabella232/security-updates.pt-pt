@@ -21,7 +21,7 @@ Antes de iniciar o processo de configuração, certifique-se de que sabe as resp
 
 Por predefinição, o WSUS está configurado para utilizar o Microsoft Update como localização de obtenção de actualizações. Se tiver um servidor proxy na rede, pode configurar o WSUS para utilizar o servidor proxy. Se houver uma firewall empresarial entre o WSUS e a Internet, poderá ser necessário configurar a firewall de modo a assegurar que o WSUS consegue obter actualizações.
 
-| ![](images/Cc708602.note(WS.10).gif)Nota                                                                                                                  |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Nota                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Embora tenha de ter ligação à Internet para transferir actualizações do Microsoft Update, o WSUS oferece-lhe a capacidade de importar actualizações para redes não ligadas à Internet. |
 
@@ -48,7 +48,7 @@ Por predefinição, o WSUS está configurado para utilizar o Microsoft Update co
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Nota                                                                                                                                                                                |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Nota                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Estas instruções de configuração da firewall destinam-se a uma firewall empresarial situada entre o WSUS e a Internet. Dado que o WSUS inicia todo o respectivo tráfego de rede, não é necessário configurar a Firewall do Windows no servidor WSUS. |
 
@@ -81,7 +81,7 @@ Os dois procedimentos seguintes assumem que está a utilizar o snap-in Administr
 **Para iniciar a consola de Administração do WSUS**
 -   Para iniciar a consola Administração WSUS, clique em **Iniciar**, aponte para **Todos os Programas**, aponte para **Ferramentas Administrativas** e, em seguida, clique em **Microsoft Windows Server Update Services 3.0**.
 
-| ![](images/Cc708602.note(WS.10).gif)Nota                                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc708602.note(WS.10).gif)Nota                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Para poder utilizar todas as funcionalidades da consola WSUS, tem de ser membro dos grupos de segurança Administradores do WSUS ou Administradores local no servidor no qual o WSUS está instalado. No entanto, os membros do grupo de segurança Informadores WSUS têm apenas acesso só de leitura à consola de administração. |
 

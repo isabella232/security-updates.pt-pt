@@ -19,7 +19,7 @@ Se a base de dados de registo ficar demasiado grande, pode mudá-la a qualquer a
     -   Altere o valor da política de LoggingDatabaseServer para que reflicta o novo nome do servidor da base de dados.
     -   Altere o valor da política de LoggingDatabaseName para que reflicta o novo nome da base de dados.
 
-    | ![](images/Cc720238.note(WS.10).gif)Nota                                                                                                                                                               |
+    | ![](/security-updates/images/Cc720238.note(WS.10).gif)Nota                                                                                                                                                               |
     |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | O SQL Server Enterprise Manager não funciona com campos db\_variant, pelo que não pode ser utilizado para esta tarefa. Em vez disso, pode utilizar o Query Analyzer do SQL Server, ou outra ferramenta de edição de bases de dados. |
 

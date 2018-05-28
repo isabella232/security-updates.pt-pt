@@ -20,7 +20,7 @@ Desinstalar o RMS
 
 1.  Inicie a sessão no servidor em que pretende desinstalar o RMS.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Importante                                                                                                                                                                                                                                      |
+    | ![](/security-updates/images/Cc747587.Important(WS.10).gif)Importante                                                                                                                                                                                                                                      |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Se estiver a remover o RMS de um servidor no cluster de certificações de raiz, deve começar por o desaprovisionar através da página **Administração Global**, clicando em **Remover o RMS deste Web site**. Não necessita de desaprovisionar um servidor de licenciamentos antes de desinstalar o RMS desse servidor. |
 

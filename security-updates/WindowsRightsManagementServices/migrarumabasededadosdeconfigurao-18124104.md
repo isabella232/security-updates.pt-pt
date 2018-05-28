@@ -18,7 +18,7 @@ Antes de iniciar a migração da base de dados de configuração, certifique-se 
 -   O nome de conta e palavra-passe originalmente utilizada para aprovisionar os servidores no cluster do RMS que utilizam esta base de dados.
 -   Se for utilizado um fornecedor de serviços criptográficos (CSP) baseado em software para armazenar a chave privada do RMS, a chave privada do RMS que foi originalmente especificada durante o aprovisionamento. Se for utilizado um módulo de segurança por hardware (HSM) para armazenar a palavra-passe da chave privada do RMS, este passo não é necessário.
 
-| ![](images/Cc747607.note(WS.10).gif)Nota                                                                                                                                                |
+| ![](/security-updates/images/Cc747607.note(WS.10).gif)Nota                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A migração da base de dados de configuração não requer um novo certificado de servidor licenciador ou uma nova chave privada do servidor porque o RMS retém as definições da base de dados de configuração original. |
 
@@ -29,7 +29,7 @@ Para migrar uma base de dados de configuração, siga os seguintes passos:
 -   Actualize a base de dados de configuração do RMS para reflectir o nome do novo servidor de base de dados.
 -   Actualize os ficheiros web.config e o registo em cada servidor no cluster do RMS para utilizar o nome do novo servidor de base de dados
 
-| ![](images/Cc747607.Important(WS.10).gif)Importante                                                             |
+| ![](/security-updates/images/Cc747607.Important(WS.10).gif)Importante                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------|
 | Este tópico presume que as bases de dados do RMS já foram copiadas para o novo servidor de base de dados que aloja as bases de dados do RMS. |
 
@@ -130,7 +130,7 @@ Para actualizar os ficheiros web.config em cada servidor no cluster do RMS:
 
 Finalmente, actualize o registo em cada servidor no cluster do RMS para o nome do novo servidor de base de dados:
 
-| ![](images/Cc747607.Caution(WS.10).gif)Atenção                                                                                                             |
+| ![](/security-updates/images/Cc747607.Caution(WS.10).gif)Atenção                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A edição incorrecta do registo poderá danificar gravemente o sistema. Antes de efectuar alterações no registo, crie uma cópia de segurança de todos os dados importantes do computador. |
 

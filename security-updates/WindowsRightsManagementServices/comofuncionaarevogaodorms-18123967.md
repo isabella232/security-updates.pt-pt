@@ -24,7 +24,7 @@ As listas de revogação podem ser distribuídas aos computadores clientes pelo 
 
 O diagrama seguinte apresenta o processo de associação e mostra como a revogação funciona nesse processo.
 
-![](images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif)
+![](/security-updates/images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif)
 
 A revogação é opcional. O administrador do RMS pode requerer a revogação, especificando-a num ou mais modelos de política de direitos da organização. Quando a revogação é requerida, uma licença não pode ser associada, a não ser que a lista de revogações requerida esteja presente e registada no computador do utilizador, e que não seja anterior ao intervalo de actualização especificado na licença de utilização.
 

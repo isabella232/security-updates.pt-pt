@@ -94,7 +94,7 @@ Pode implementar o rastreio se modificar o ficheiro Web.config ou Machine.config
 
 4.  Reinicie o IIS executando o IISRESET a partir de uma linha de comandos.
 
-| ![](images/Cc747547.Important(WS.10).gif)Importante                                                                                                                                                                                                                                            |
+| ![](/security-updates/images/Cc747547.Important(WS.10).gif)Importante                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando utilizar o rastreio num servidor do RMS, podem ocorrer problemas de desempenho, como atrasos maiores nas aquisições de licenças de utilização e emissão de certificados de contas de direitos. Utilize apenas o rastreio em circunstâncias limitadas para o ajudar a diagnosticar e a resolver problemas existentes. |
 

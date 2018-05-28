@@ -67,11 +67,11 @@ Se tiver dois ou mais Web sites em execução na porta 80 (por exemplo, Windows�
 
 Quando instalar o WSUS 3.0 SP1, pode ser necessário desactivar programas antivírus, antes de poder efectuar a instalação com êxito. Depois de desactivar o programa antivírus, reinicie o computador antes de iniciar a instalação do WSUS. Reiniciar o computador impede que os ficheiros sejam bloqueados quando o processo de instalação necessitar de aceder aos mesmos. Depois de concluir a instalação, certifique-se de que reactiva o programa antivírus. Visite o Web site do fornecedor do programa antivírus para saber os passos exactos de desactivação e reactivação do programa antivírus e a respectiva versão.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                   |
+| ![](/security-updates/images/Cc708525.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Esta solução pode tornar o computador ou a rede mais vulnerável a ataques de utilizadores maliciosos ou de software malicioso, tal como vírus. Esta solução não é recomendada, apenas é fornecida para que possa implementá-la conforme entender. Utilize esta solução por sua conta e risco. |
 
-| ![](images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os programas antivírus destinam-se a ajudar a proteger o computador contra vírus. Não transfira ou abra ficheiros a partir de origens que não considera fidedignas, não visite Web sites que não considera fidedignos, nem abra anexos de correio electrónico quando o programa antivírus estiver desactivado. |
 
@@ -177,7 +177,7 @@ Antes de executar o programa de configuração do WSUS 3.0 SP1, certifique-se de
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                               |  
+| ![](/security-updates/images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                               |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Se o WSUS 2.0 já tiver sido instalado anteriormente e estiver a utilizar o SQL Server 2000, o SQL Server Desktop Engine 2000 ou qualquer base de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 no Windows Server 2008), o programa de instalação do WSUS 3.0 SP1 instalará oBase de dados interna do Windows® e migrará a base de dados para o mesmo. |
   
@@ -190,7 +190,7 @@ Os requisitos mínimos de espaço em disco para a instalação do Windows Server
 -   2 GB para o volume no qual os ficheiros de base de dados serão armazenados  
 -   20 GB para o volume onde o conteúdo será armazenado
   
-| ![](images/Cc708525.Important(WS.10).gif)Importante                                         |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Importante                                         |  
 |--------------------------------------------------------------------------------------------------------------------------|  
 | Não é possível instalar o WSUS 3.0 SP1 em unidades comprimidas. Verifique se a unidade seleccionada não está comprimida. |
   
@@ -350,7 +350,7 @@ Esta tabela mostra as propriedades de linha de comandos para o WSUS 3.0 SP1.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Importante                                                                                                                                        |  
+| ![](/security-updates/images/Cc708525.Important(WS.10).gif)Importante                                                                                                                                        |  
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Se instalar o WSUS 3.0 SP1 no modo silencioso (/q) e o computador não tiver todos os pré-requisitos instalados, a instalação irá gerar um ficheiro com o nome WSUSPreReqCheck.xml e irá guardá-lo no directório %TEMP%. |
   

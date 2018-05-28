@@ -13,7 +13,7 @@ Antes de instalar um servidor de certificações de raiz ou de licenciamento, ce
 
 Os procedimentos seguintes configuram um controlador de domínio e um servidor de bases de dados num computador numa rede isolada para fins de teste no lado do servidor.
 
-| ![](images/Cc747681.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                |
+| ![](/security-updates/images/Cc747681.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Neste exemplo, o servidor de bases de dados é executado no controlador de domínio. Num ambiente de produção, não se recomenda alojar outros componentes num controlador de domínio. Neste exemplo, o Active Directory e o servidor de bases de dados são instalados no mesmo computador para activar a instalação de uma infra-estrutura completa num número mínimo de computadores. |
 

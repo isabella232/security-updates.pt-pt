@@ -143,7 +143,7 @@ Restaurar uma Instalação Anterior do RMS
 
 Se ocorrer uma falha de hardware ou software no servidor do RMS, pode restaurar um servidor do RMS utilizando a base de dados de configuração anteriormente instalada para aprovisionar uma nova instância do servidor.
 
-| ![](images/Cc747605.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                         |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Este procedimento só se aplica se ocorrer uma falha no servidor no qual o RMS está a ser executado. Se ocorrer uma falha no servidor que está a executar a base de dados de configuração, consulte "Restaurar a Base de Dados de Configuração" anteriormente nesta secção. Se o servidor do RMS for também o servidor de bases de dados, tem de restaurar todo o servidor a partir de uma cópia de segurança. |
 
@@ -186,7 +186,7 @@ Por predefinição, os componentes que são executados a partir de uma página A
 
 Para resolver este problema, pode utilizar o editor de registo para modificar a chave de registo que controla este comportamento.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Atenção                                                                                                                    |
+| ![](/security-updates/images/Cc747605.Caution(WS.10).gif)Atenção                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uma edição incorrecta do registo pode danificar gravemente o sistema. Antes de proceder a alterações do registo, efectue uma cópia de segurança dos dados importantes guardados no computador. |
 
@@ -198,7 +198,7 @@ Nome: `RestrictGuestAccess`
 
 Tipo: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Nota                       |
+| ![](/security-updates/images/Cc747605.note(WS.10).gif)Nota                       |
 |---------------------------------------------------------------------------------------------|
 | Isto permite que todas as contas de Convidados escrevam no Registo de Eventos da Aplicação. |
 

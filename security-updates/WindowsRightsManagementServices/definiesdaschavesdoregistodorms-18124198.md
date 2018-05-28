@@ -11,7 +11,7 @@ Definições das Chaves do Registo do RMS
 
 É possível modificar as definições das chaves do registo a fim de testar certos aspectos da sua implementação, bem como para gerir o desempenho.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Atenção                                                                                                                  |
+| ![](/security-updates/images/Cc747740.Caution(WS.10).gif)Atenção                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uma edição incorrecta do registo pode danificar gravemente o sistema. Antes de proceder a alterações do registo, faça uma cópia de segurança dos dados importantes que guarda no computador. |
 

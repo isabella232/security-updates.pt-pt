@@ -11,7 +11,7 @@ Publicação Online
 
 O seguinte diagrama descreve o processo de publicação online.
 
-![](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
+![](/security-updates/images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
 
 O processo de publicação online envolve os seguintes passos:
 

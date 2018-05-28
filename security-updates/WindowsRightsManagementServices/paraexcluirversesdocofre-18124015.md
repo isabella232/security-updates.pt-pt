@@ -32,7 +32,7 @@ Excluir Versões do Cofre
 
 6.  Em **Versão mínima necessária de cofre de RM**, cole o número da versão e, em seguida, clique em **Actualizar**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Nota             |
+    | ![](/security-updates/images/Cc720270.note(WS.10).gif)Nota             |
     |-----------------------------------------------------------------------------------|
     | Para desactivar a exclusão com base na versão do Cofre, clique em **Desactivar**. |
 

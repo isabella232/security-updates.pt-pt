@@ -75,7 +75,7 @@ Nos procedimentos do passo 3, concluiu a configuração do servidor a montante e
     </colgroup>
     <thead>
     <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Importante</th>
+    <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939924.Important(WS.10).gif" />Importante</th>
     </tr>
     </thead>
     <tbody>

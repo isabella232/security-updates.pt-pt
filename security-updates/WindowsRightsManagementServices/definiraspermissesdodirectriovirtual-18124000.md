@@ -22,6 +22,6 @@ Antes de os utilizadores poderem começar a utilizar o serviço de desactivaçã
 4.  Em seguida, clique com o botão direito do rato na entrada e seleccione **Modificar** para especificar os dados de valor para apontar para o serviço de desactivação:
     `http://`*servidor de licenças*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Nota                                                             |
+| ![](/security-updates/images/Cc747549.note(WS.10).gif)Nota                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------------|
 | Podem existir diversas entradas para esta chave quando existem diversos servidores do RMS em modo de desactivação na organização. |

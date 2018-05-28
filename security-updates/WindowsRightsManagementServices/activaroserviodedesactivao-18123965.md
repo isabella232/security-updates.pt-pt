@@ -11,7 +11,7 @@ Activar o Serviço de Desactivação
 
 A desactivação do sistema do RMS requer a chave privada utilizada para proteger todas as informações publicadas. Esta chave privada está armazenada na base de dados de configuração, é encriptada pela API de Protecção de Dados (DPAPI) e baseia-se na palavra-passe introduzida durante o aprovisionamento. Se a chave privada do RMS for guardada num módulo de segurança por hardware (HSM), a chave privada será guardada no HSM, em vez da base de dados de configuração.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Atenção                                                                                                                                     |
+| ![](/security-updates/images/Cc720261.Caution(WS.10).gif)Atenção                                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Antes de desactivar o sistema do RMS, certifique-se de que conhece a sua palavra-passe na chave privada. Se não conhecer esta palavra-passe, deve reiniciar a chave privada antes de desactivar o servidor RMS. |
 

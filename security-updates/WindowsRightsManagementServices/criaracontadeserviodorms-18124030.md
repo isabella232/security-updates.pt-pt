@@ -13,13 +13,13 @@ Durante a instalação, o RMS cria um grupo de segurança denominado **Grupo de 
 
 Quando aprovisiona o RMS num servidor, especifica uma conta de utilizador como a conta de serviço do RMS. A conta especificada torna-se num membro do Grupo de Serviço do RMS, sendo-lhe concedidas as permissões associadas a este grupo. Durante as operações normais, o RMS é executado com base na conta de serviço do RMS para a maior parte dos fins.
 
-| ![](images/Cc747546.note(WS.10).gif)Nota                                  |
+| ![](/security-updates/images/Cc747546.note(WS.10).gif)Nota                                  |
 |--------------------------------------------------------------------------------------------------------|
 | A conta de serviço do RMS não pode ser a mesma conta de domínio que foi utilizada para instalar o RMS. |
 
 Por questões de segurança, recomenda-se a criação de uma conta especial de utilizador que deve ser utilizada como conta de serviço do RMS e nunca para nenhum outro fim. Não devem também ser concedidas outras permissões a esta conta.
 
-| ![](images/Cc747546.Important(WS.10).gif)Importante |
+| ![](/security-updates/images/Cc747546.Important(WS.10).gif)Importante |
 |----------------------------------------------------------------------------------|
 | Crie esta conta de utilizador especial antes de instalar e aprovisionar o RMS.   |
 

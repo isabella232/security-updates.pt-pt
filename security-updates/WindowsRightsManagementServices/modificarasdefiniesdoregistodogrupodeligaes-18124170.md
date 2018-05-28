@@ -136,6 +136,6 @@ A tabela seguinte mostra as entradas que pode adicionar para substituir as prede
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Atenção                                                                                                                  |  
+| ![](/security-updates/images/Cc747660.Caution(WS.10).gif)Atenção                                                                                                                  |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Uma edição incorrecta do registo pode danificar gravemente o sistema. Antes de proceder a alterações do registo, faça uma cópia de segurança dos dados importantes que guarda no computador. |

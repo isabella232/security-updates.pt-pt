@@ -13,7 +13,7 @@ Por predefinição, o RMS não emite licenças de utilização para utilizadores
 
 Pode configurar o RMS para processar este tipo de pedido importando o certificado de licenciador de servidores de outro domínio de utilizadores e adicionando-o à lista de domínios de utilizadores fidedignos. Neste caso, os utilizadores cujos certificados de contas foram emitidos pelo domínio de utilizadores fidedignos podem submeter pedidos de licenças de utilização à sua instalação. Essas licenças de utilização serão processadas como se fossem pedidos de utilizadores internos.
 
-| ![](images/Cc747618.note(WS.10).gif)Nota                                                                                                            |
+| ![](/security-updates/images/Cc747618.note(WS.10).gif)Nota                                                                                                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | O cluster de certificações de raiz é apresentado automaticamente na lista de domínios de utilizadores fidedignos para todos os servidores do RMS existentes na mesma instalação. |
 

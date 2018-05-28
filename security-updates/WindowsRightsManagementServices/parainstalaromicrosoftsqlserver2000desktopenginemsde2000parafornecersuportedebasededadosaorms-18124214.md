@@ -26,7 +26,7 @@ Para Instalar o Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) para Forn
 
     **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***password*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Importante                                                                                                                                                                                                                                       |
+    | ![](/security-updates/images/Cc747667.Important(WS.10).gif)Importante                                                                                                                                                                                                                                       |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | O serviço do MSDE deve ser iniciado depois de instalado. Pode iniciar o serviço a partir de **Serviços** no **Painel de controlo**. Recomendamos que o serviço seja configurado para iniciar automaticamente para assegurar que a base de dados do MSDE esteja sempre disponível quando o RMS estiver a ser executado. |
 

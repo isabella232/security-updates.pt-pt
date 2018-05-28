@@ -16,7 +16,7 @@ O seguinte procedimento utiliza opções predefinidas de instalação do WSUS no
 **Para instalar o WSUS no Windows Server 2003**
 1.  Faça duplo clique no ficheiro de instalação **WSUSSetup.exe**.
 
-    | ![](images/Cc708622.note(WS.10).gif)Nota                                                                                                                                                                                                        |
+    | ![](/security-updates/images/Cc708622.note(WS.10).gif)Nota                                                                                                                                                                                                        |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | A versão mais recente do WSUSSetup.exe está disponível no [Web site da Microsoft](http://go.microsoft.com/fwlink/?linkid=47374) para o Windows Server Update Services, em http://go.microsoft.com/fwlink/?LinkId=47374 (o documento pode estar disponível apenas em inglês). |
 
@@ -28,7 +28,7 @@ O seguinte procedimento utiliza opções predefinidas de instalação do WSUS no
 
     Mantenha as opções predefinidas e clique em **Seguinte**.
 
-    ![](images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc708622.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  Na página **Opções de Base de Dados**, seleccione o software utilizado para gerir a base de dados do WSUS. Por predefinição, o Programa de Configuração do WSUS dá-lhe a possibilidade de instalar o WMSDE caso o computador de instalação execute o Windows Server 2003.
 
@@ -36,7 +36,7 @@ O seguinte procedimento utiliza opções predefinidas de instalação do WSUS no
 
     Mantenha as opções predefinidas e clique em **Seguinte**.
 
-    ![](images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.bc0b73ad-b338-437c-a3c7-0299e819840d(WS.10).gif)
 
 6.  Na página **Selecção de Web Site**, especifique o Web site que o WSUS irá utilizar. Esta página também lista dois importantes URL com base nesta selecção: o URL para o qual irá apontar computadores cliente WSUS para que obtenham actualizações e o URL da consola WSUS onde irá configurar o WSUS.
 
@@ -44,7 +44,7 @@ O seguinte procedimento utiliza opções predefinidas de instalação do WSUS no
 
     Mantenha a opção predefinida e clique em **Seguinte**.
 
-    ![](images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
+    ![](/security-updates/images/Cc708622.64ed7643-a050-4f54-bf9f-04cf7931adc0(WS.10).gif)
 
 7.  Na página **Definições de Actualização Mirror**, é possível especificar a função de gestão deste servidor WSUS. Caso se trate do primeiro servidor WSUS na rede ou caso pretenda uma topologia de gestão distribuída, ignore este ecrã.
 
@@ -52,10 +52,10 @@ O seguinte procedimento utiliza opções predefinidas de instalação do WSUS no
 
     Mantenha a opção predefinida e clique em **Seguinte**.
 
-    ![](images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
+    ![](/security-updates/images/Cc708622.f26e09d5-983c-418d-8511-8960850403ef(WS.10).gif)
 
 8.  Na página **Pronto Para Instalar o Windows Server Update Services**, reveja as selecções e clique em **Seguinte**.
 
-    ![](images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
+    ![](/security-updates/images/Cc708622.20de7d09-3d30-4867-9253-6f353dd1923d(WS.10).gif)
 
 9.  Se a página final do assistente confirmar que a instalação do WSUS foi concluída com êxito, clique em **Terminar**.
