@@ -11,7 +11,7 @@ Criar Listas de Revogações
 
 A implementação de revogações requer a distribuição de uma lista de revogações, que é um documento XML que utiliza a linguagem XrML (eXtensible Rights Markup Language) e lista os principais que já não devem ter acesso ao conteúdo protegido. Têm de ser criadas listas de revogações que estejam marcadas com a hora e devidamente assinadas, utilizando a ferramenta de Assinatura da Lista de Revogações (RLsigner.exe) fornecida com o RMS.
 
-| ![](images/Cc720208.Important(WS.10).gif)Importante                                                               |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Importante                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
 | Para assinar a lista de revogações utilizando o RLsigner.exe, é necessário guardar o ficheiro da lista de revogações como um ficheiro unicode. |
 
@@ -31,10 +31,10 @@ O elemento BODY contém quatro elementos subordinados:
 
 Abaixo é apresentada uma amostra de um ficheiro de lista de revogações.
 
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                          |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------|
         ```
-| ![](images/Cc720208.Caution(WS.10).gif)Atenção                                                                        |
+| ![](/security-updates/images/Cc720208.Caution(WS.10).gif)Atenção                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ao especificar o URL na lista de revogações, deixa de ser suportado um caminho UNS no RMS com SP1 ou RMS com SP2. Será necessário utilizar um URL. |
 
@@ -90,7 +90,7 @@ Se pretende impedir a capacidade de uma determinada aplicação consumir o conte
 #### Revogar Certificados e Licenças com Base na ID do Emissor
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando especificar o tipo de ID, certifique-se de que não existe qualquer símbolo de retorno entre o identificador exclusivo global (GUID) e a etiqueta de fecho. Se adicionar um símbolo de retorno inadvertidamente, o cliente do RMS não pode analisar a lista de revogação. |
 
@@ -98,7 +98,7 @@ Se pretende impedir a capacidade de uma determinada aplicação consumir o conte
 #### Revogar Conteúdo com Base na ID do Conteúdo
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                           |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando especificar o tipo de ID, certifique-se de que não existe qualquer símbolo de retorno entre o identificador exclusivo global (GUID) e a etiqueta de fecho. Se adicionar um símbolo de retorno inadvertidamente, o cliente do RMS não pode analisar a lista de revogação. |
 
@@ -106,7 +106,7 @@ Se pretende impedir a capacidade de uma determinada aplicação consumir o conte
 #### Revogar Principais com Base na Conta do Windows
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                             |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando especificar o tipo de ID, certifique-se de que não existe qualquer símbolo de retorno entre o SID da conta do Windows e a etiqueta de fecho. Se adicionar um símbolo de retorno inadvertidamente, o cliente do RMS não pode analisar a lista de revogação. |
 
@@ -114,7 +114,7 @@ Se pretende impedir a capacidade de uma determinada aplicação consumir o conte
 #### Revogar Principais com Base no Windows Live ID
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                              |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando especificar o tipo de ID, certifique-se de que não existe qualquer símbolo de retorno entre o identificador exclusivo principal (PUID) e a etiqueta de fecho. Se adicionar um símbolo de retorno inadvertidamente, o cliente do RMS não pode analisar a lista de revogação. |
 
@@ -145,7 +145,7 @@ Para assinar o ficheiro da lista de revogações utilizando a ferramenta RLsigne
 
 4.  Use a ferramenta RLsigner.exe para introduzir uma assinatura num ficheiro de lista de revogações. Esta ferramenta faz parte do RMS. Por predefinição, está localizada no directório %systemdrive%\\Program Files\\Windows Rights Management Services\\Tools.
 
-| ![](images/Cc720208.note(WS.10).gif)Nota         |
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota         |
 |-------------------------------------------------------------------------------|
 | A ferramenta RLsigner.exe não suporta nomes de ficheiros que incluam espaços. |
 
@@ -155,7 +155,7 @@ Utilizar a ferramenta RLsigner.exe
 
 Quando se executa a ferramenta RLsigner.exe, esta cria em primeiro lugar uma assinatura, utilizando a chave privada que é fornecida no ficheiro de chave. Depois, cria um ficheiro de saída baseado no ficheiro da lista de revogações fornecido.
 
-| ![](images/Cc720208.Important(WS.10).gif)Importante                                            |
+| ![](/security-updates/images/Cc720208.Important(WS.10).gif)Importante                                            |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | Para utilizar a ferramenta RLsigner.exe, o ficheiro da lista de revogações terá de ter sido guardado como ficheiro unicode. |
 
@@ -199,7 +199,7 @@ Utilize as informações que se seguem para preencher os parâmetros de entrada 
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Nota         |  
+| ![](/security-updates/images/Cc720208.note(WS.10).gif)Nota         |  
 |-------------------------------------------------------------------------------|  
 | A ferramenta RLsigner.exe não suporta nomes de ficheiros que incluam espaços. |
   
