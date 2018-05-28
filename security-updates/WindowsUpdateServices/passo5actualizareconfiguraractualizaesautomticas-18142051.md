@@ -11,7 +11,7 @@ Passo 5: Actualizar e Configurar Actualizações Automáticas
 
 Os computadores cliente WSUS requerem uma versão compatível do serviço Actualizações Automáticas. O Programa de Configuração do WSUS configura o IIS para distribuir a versão mais recente do serviço Actualizações Automáticas a cada computador cliente que contacte o servidor WSUS.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Embora a maioria das versões do serviço Actualizações Automáticas possa ser apontada para o servidor WSUS, actualizando-se automaticamente para a versão compatível com WSUS, a versão de Actualizações Automáticas incluída no Windows XP sem service packs não consegue actualizar-se automaticamente. Se tiver o Windows XP sem service packs no ambiente e nunca tiver utilizado o Software Update Services (SUS), consulte a documentação “Deploying Microsoft Windows Server Update Services” para obter instruções. |
 
@@ -55,7 +55,7 @@ Efectue os três procedimentos seguintes num objecto de Política de Grupo basea
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                                 |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Nota                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A definição **Permitir ao administrador local escolher a definição** só aparece se o serviço Actualizações Automáticas se tiver auto-actualizado para a versão compatível com o WSUS. |
 
@@ -68,7 +68,7 @@ Efectue os três procedimentos seguintes num objecto de Política de Grupo basea
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
+| ![](/security-updates/images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se estiver a utilizar o objecto de Política de Grupo Local para apontar este computador para o WSUS, esta definição será aplicada de imediato e este computador deverá aparecer na consola administrativa WSUS em cerca de 20 minutos. Pode acelerar este processo iniciando manualmente um ciclo de detecção. |
 

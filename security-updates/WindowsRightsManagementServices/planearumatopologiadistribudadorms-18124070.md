@@ -15,7 +15,7 @@ Não se esqueça de que, à semelhança do servidor de certificações de raiz, 
 
 Embora possa configurar a instalação do RMS para executar apenas os serviços de certificação a partir da instalação de raiz e todo o serviço de licenciamento a partir de um ou mais servidores ou clusters de licenciamento, esta não é um topologia típica. De um modo geral, aumenta-se o número de servidores físicos que se encontram no cluster de certificações de raiz de forma a cumprir os requisitos de desempenho e de redundância, em vez de implementar servidores de licenciamentos separados (excepto se for necessário suporte departamental para o licenciamento). O diagrama seguinte ilustra este tipo de implementação.
 
-![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
+![](/security-updates/images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
 
 A criação de uma topologia distribuída pode aumentar os custos administrativos da organização pois a topologia distribuída é inerentemente mais complexa. Se a organização tiver múltiplos clusters de licenciamento e florestas, pode ser necessário substituir o registo dos computadores clientes do RMS para se assegurar de que os pedidos de licenciamento são efectuados no servidor de RMS correcto. Além disso, podem ocorrer problemas de confiança entre domínios. Isto requer a configuração dos domínios para permitir o consumo de conteúdo protegido pelo RMS.
 

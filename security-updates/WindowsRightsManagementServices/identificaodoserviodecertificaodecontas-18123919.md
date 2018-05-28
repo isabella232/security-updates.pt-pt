@@ -21,6 +21,6 @@ Quando um cliente pede um certificado de conta de direitos, anexa o nome do fich
 
 http://*nome\_servidor*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Nota                    |
+| ![](/security-updates/images/Cc720224.note(WS.10).gif)Nota                    |
 |------------------------------------------------------------------------------------------|
 | Se activou o SSL no servidor do RMS, estes URL utilizam o protocolo de ligação https://. |

@@ -54,6 +54,6 @@ Depois de o certificado de licenciador de servidores do cluster de certificaçõ
 
 Em ambos os cenários (a revogação pela Microsoft ou por uma terceira entidade), a lista de revogações entra em vigor para todos os pedidos de associação, porque foi assinada pela chave privada de um principal da cadeia de fidedignidade da licença de utilização. Por isso, todos os pedidos de associação que envolvam licenças que foram emitidas pela instalação do RMS utilizando o certificado de licenciador de servidores irão falhar.
 
-| ![](images/Cc747578.note(WS.10).gif)Nota                                            |
+| ![](/security-updates/images/Cc747578.note(WS.10).gif)Nota                                            |
 |------------------------------------------------------------------------------------------------------------------|
 | A Microsoft apenas revogará um certificado de licenciador de servidores se tal lhe for ordenado por um tribunal. |

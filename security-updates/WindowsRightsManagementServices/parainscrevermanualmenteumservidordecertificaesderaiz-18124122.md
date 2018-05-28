@@ -32,7 +32,7 @@ Inscrever Manualmente um Servidor de Certificações de Raiz
 
 4.  Clique em **Guardar**. Aparece a caixa de diálogo **Guardar como**.
 
-    | ![](images/Cc747727.note(WS.10).gif)Nota                                                                                                                |
+    | ![](/security-updates/images/Cc747727.note(WS.10).gif)Nota                                                                                                                |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Na caixa de diálogo **Transferência de Ficheiros**, não clique em **Abrir**. Se clicar em **Abrir** aparece uma mensagem de erro e o ficheiro de pedido de inscrição não é guardado. |
 

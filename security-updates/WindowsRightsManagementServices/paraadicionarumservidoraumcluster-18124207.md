@@ -26,13 +26,13 @@ Adicionar um Servidor a um Cluster
 
 2.  No Web site em que pretende aprovisionar o RMS, clique em **Adicionar este servidor a um cluster**. Pode seleccionar o Web site predefinido ou outro Web site que tenha criado nos Serviços de Informação Internet (IIS) para esse fim.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Aviso                                                                                                                                                                               |
+    | ![](/security-updates/images/Cc747690.Warning(WS.10).gif)Aviso                                                                                                                                                                               |
     |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Não é suportada a execução de outros Web sites ou serviços no mesmo servidor do RMS. Se tal ocorresse, poderiam ser executados vários serviços e aplicações sob a mesma conta do RMS, o que poderia expor as chaves privadas a operações sem garantias. |
 
 3.  Na área **Conta de serviço do RMS**, escreva o nome da conta, com o formato nome\_domínio\\nome\_utilizador, e a palavra-passe da conta de serviço do RMS com a qual o RMS será executado para a maior parte das operações normais. A conta deve ser de domínio. Todos os servidores de um cluster devem operar sob a mesma conta de serviço do RMS.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Importante                                                                                                                                                                                                                                       |
+    | ![](/security-updates/images/Cc747690.Important(WS.10).gif)Importante                                                                                                                                                                                                                                       |
     |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Por questões de segurança, é recomendável criar uma conta especial de utilizador de domínio para utilizar como conta de serviço do RMS e à qual não serão concedidas permissões especiais. A conta de serviço do RMS não pode ser a mesma conta de domínio que foi utilizada para instalar o RMS com o Service Pack 1. |
 

@@ -15,7 +15,7 @@ Um grande número de organizações opta por controlar a implementação do soft
 
 Antes de iniciar a implementação, aceda ao site [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736) para transferir o cliente RMS.
 
-| ![](images/Cc747749.Important(WS.10).gif)Importante                    |
+| ![](/security-updates/images/Cc747749.Important(WS.10).gif)Importante                    |
 |-----------------------------------------------------------------------------------------------------|
 | O cliente RMS foi incorporado no Windows Vista. Assim, já não é necessária uma instalação separada. |
 
@@ -39,7 +39,7 @@ A execução deste comando extrai os ficheiros indicados a seguir para o direct�
 -   RMClientBackCompat.msi
     É o ficheiro de instalação que identifica o novo cliente RMS com SP2 para aplicações activadas pelo RMS (tais como o Microsoft Office Professional 2003 ou o Microsoft Office System de 2007) que são dependentes da versão anterior do cliente RMS, de forma a que o cliente RMS com SP2 possa ser utilizado em seu lugar. Este programa deve ser instalado nos computadores clientes após a instalação com êxito do MSDrmClient.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Independentemente do método de instalação escolhido para a implementação, deve certificar-se de que ambos os ficheiros do Windows Installer são instalados com êxito. Se ocorrer um erro que evite a instalação do MSDrmClient.msi, não instale o RMClientBackCompat.msi. |
 
@@ -52,7 +52,7 @@ A extracção dos ficheiros para instalar os ficheiros do Windows Installer é u
 
 Este comando inicia a instalação automática do cliente RMS.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                 |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Nota                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uma vez que é uma instalação automática, o Windows Installer não o informa quando está concluída. As instalações automáticas são normalmente executadas num ficheiro batch ou script. |
 
@@ -72,7 +72,7 @@ Implementar o cliente RMS Através do SMS
 
     -   Para **Command line**, escreva o seguinte:
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Nota                                                                    |
+        | ![](/security-updates/images/Cc747749.note(WS.10).gif)Nota                                                                    |
         |------------------------------------------------------------------------------------------------------------------------------------------|
         | MSIDGHOG é um valor aleatório. Substitua &lt;nome\_ficheiro&gt; pelo nome do ficheiro do Windows Installer que este pacote irá instalar. |
 
@@ -140,7 +140,7 @@ O procedimento seguinte fornece um manual de consulta rápida para administrador
 
 11. Repita os passos de 5 a 10 para criar um GPO que instale o ficheiro RMClientBackCompat.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                       |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                       |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Estes passos são fornecidos apenas como referência para utilizadores que não estão familiarizados com a utilização da Política de Grupo. Se for um administrador experiente da Política de Grupo, pode aplicar procedimentos operacionais próprios para distribuir o pacote MSDrmClient.msi. Estes passos destinam-se a um controlador de domínio com o Windows Server 2003 — o processo e a terminologia podem ser diferentes num domínio do Windows 2000. |
 
@@ -173,6 +173,6 @@ Actualizar a partir de uma versão anterior
     end if
 ```
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                         |
+| ![](/security-updates/images/Cc747749.note(WS.10).gif)Nota                                         |
 |---------------------------------------------------------------------------------------------------------------|
 | Este script não funciona com o Windows Vista uma vez que o cliente RMS está incorporado no sistema operativo. |

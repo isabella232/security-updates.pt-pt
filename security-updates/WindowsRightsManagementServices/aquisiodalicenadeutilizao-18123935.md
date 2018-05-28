@@ -11,7 +11,7 @@ Aquisição da Licença de Utilização
 
 Para consumir conteúdo protegido pelo RMS, um utilizador tem de adquirir uma licença de utilização através do serviço de licenciamento do RMS. A figura seguinte ilustra o processo de pedido e recepção de uma licença de utilização.
 
-![](images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif)
+![](/security-updates/images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif)
 
 O processo de aquisição de uma licença de utilização envolve os seguintes passos:
 

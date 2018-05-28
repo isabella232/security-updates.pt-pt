@@ -67,11 +67,11 @@ Os acessos às interfaces de aplicações (APIs) do WSUS entrarão em conflito c
 
 Quando actualizar o WSUS aplicando o WSUS com SP1, pode ter de desactivar programas antivírus antes de poder efectuar a actualização ou aplicar o service pack. Após desactivar os programas antivírus, reinicie o computador Windows Server antes de aplicar a actualização ou o service pack. Este procedimento evita que os ficheiros que necessitam de ser acedidos sejam bloqueados. Após a conclusão da instalação, certifique-se de que reactiva o seu programa antivírus. Visite o Web site do fabricante do seu programa antivírus para conhecer os passos exactos para desactivar e reactivar o seu programa antivírus.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                                                  |
+| ![](/security-updates/images/Cc708486.Caution(WS.10).gif)Atenção                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Esta solução pode tornar o seu computador ou a sua rede mais vulnerável a ataques por parte de utilizadores mal intencionados ou por parte de software malicioso, tais como vírus. Não recomendamos esta solução, mas fornecêmo-la para que possa implementá-la ao seu critério. Utilize esta solução por sua conta e risco. |
 
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                                                                                                    |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Um programa antivírus é concebido para ajudar a proteger o seu computador contra vírus. Não deve transferir ou abrir ficheiros de fontes nas quais não confia, não deve visitar Web sites em que não confia nem abrir anexos de correio electrónico quando o seu programa antivírus estiver desactivado. |
 
@@ -148,7 +148,7 @@ Se alterar o nome do computador após instalar o WSUS RTM e antes de actualizar 
 Utilize o script seguinte para remover e adicionar novamente os grupos de administradores ASPNET e WSUS. De seguida, execute novamente a actualização.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                       |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Nota                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | Pode ter de substituir &lt;ContentDirectory&gt; na última linha com o caminho do actual local de armazenamento do conteúdo. |
 
@@ -340,7 +340,7 @@ Problemas conhecidos
 
 Se estiver a executar o IIS num computador com o Windows 2000 Server, instale a versão mais recente do IIS Lockdown Wizard (que inclui URLScan) a partir da página da ferramenta IIS Lockdown Tool no Web site Microsoft TechNet. A Microsoft recomenda vivamente que instale esta ferramenta para ajudar a manter os servidores IIS seguros. O IIS Lockdown Wizard desactiva as funcionalidades vulneráveis do IIS, reduzindo assim a exposição a riscos de segurança.
 
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                        |
+| ![](/security-updates/images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | O Programa de Configuração do WSUS não instala estes componentes. Terá de os instalar manualmente. Não é necessário instalar o IIS Lockdown em computadores com Windows Server 2003, pois a funcionalidade está incorporada. |
 

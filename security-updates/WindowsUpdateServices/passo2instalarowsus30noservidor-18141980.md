@@ -22,11 +22,11 @@ O seguinte procedimento utiliza as opções de instalação do WSUS predefinidas
 
 4.  Na página **Contrato de Licença**, leia atentamente os termos do contrato de licença, clique em **Aceito os termos do Contrato de Licença** e, depois, clique em **Seguinte**.
 
-    ![](images/Cc720469.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
+    ![](/security-updates/images/Cc720469.fa6ac6a6-6814-4b7e-96e8-e08af5e534b8(WS.10).gif)
 
 5.  Na página **Seleccionar Origem de Actualização** do assistente de instalação, pode especificar de onde os clientes deverão obter actualizações. Se seleccionar a caixa de verificação **Armazenar actualizações localmente**, as actualizações são armazenadas no servidor com o WSUS 3.0, sendo necessário seleccionar uma localização no sistema de ficheiros para armazenamento das actualizações. Se as actualizações não forem armazenadas localmente, os computadores cliente irão ligar ao Microsoft Update para obter actualizações aprovadas. Mantenha as opções predefinidas e clique em **Seguinte**.
 
-    ![](images/Cc720469.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
+    ![](/security-updates/images/Cc720469.c8bac396-ca39-4491-8b0c-742a0e470535(WS.10).gif)
 
 6.  Na página **Opções de Base de Dados**, seleccione o software utilizado para gerir a base de dados do WSUS 3.0. Por predefinição, a Configuração do WSUS dá-lhe a possibilidade de instalar o Base de dados interna do Windows, caso o computador onde está a efectuar a instalação tenha o Windows Server 2003.
 
@@ -34,7 +34,7 @@ O seguinte procedimento utiliza as opções de instalação do WSUS predefinidas
 
 8.  Na página **A ligar à instância de servidor de SQL**, o WSUS tenta estabelecer ligação à instância do SQL Server especificada. Quando tiver estabelecido ligação com êxito, clique em **Seguinte** para continuar.
 
-    ![](images/Cc720469.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
+    ![](/security-updates/images/Cc720469.36c6af0c-a61e-4151-ae50-c754a106cb1b(WS.10).gif)
 
 9.  Na página **Selecção de Web Site**, especifique o Web site que o WSUS 3.0 irá utilizar. Se pretender utilizar o Web site predefinido do IIS na porta 80, seleccione a primeira opção. Se já tiver um Web site na porta 80, pode criar um site alternativo na porta 8530 seleccionando a segunda opção. Mantenha a opção predefinida e clique em **Seguinte**.
 

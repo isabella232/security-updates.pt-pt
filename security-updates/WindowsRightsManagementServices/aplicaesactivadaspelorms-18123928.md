@@ -21,7 +21,7 @@ Os utilizadores, que não têm outra aplicação activada pelo RMS para consumir
 
 Pode transferir o Suplemento de Gestão de Direitos para o Internet Explorer a partir do [Web site da Microsoft](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Nota                                                                                                                                                    |
+| ![](/security-updates/images/Cc720231.note(WS.10).gif)Nota                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se estiver a utilizar o Suplemento de Gestão de Direitos para o Internet Explorer com o Windows XP Service Pack 2, a configuração de segurança avançada pode criar alguns problemas de compatibilidade entre aplicações. |
 

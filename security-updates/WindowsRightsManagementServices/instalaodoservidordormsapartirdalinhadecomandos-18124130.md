@@ -63,6 +63,6 @@ A tabela seguinte descreve a sintaxe para cada comando.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Nota                                                                                                                                                                                                 |  
+| ![](/security-updates/images/Cc747733.note(WS.10).gif)Nota                                                                                                                                                                                                 |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Independentemente do método de instalação escolhido para a implementação, deve certificar-se de que ambos os ficheiros .msi são instalados com êxito. Se ocorrer um erro que impeça a instalação do MSDrmClient.msi, o RMClientBackCompat.msi não deve ser instalado. |

@@ -27,7 +27,7 @@ Neste passo, irá aprovar uma actualização para os computadores cliente de tes
 
 5.  Verá uma nova janela, **Progresso da Aprovação**, que mostra o progresso das diferentes tarefas que afectam a aprovação das actualizações. Quando a aprovação estiver concluída, clique em **Fechar** para fechar esta janela.
 
-| ![](images/Cc708475.note(WS.10).gif)Nota                                                      |
+| ![](/security-updates/images/Cc708475.note(WS.10).gif)Nota                                                      |
 |----------------------------------------------------------------------------------------------------------------------------|
 | Muitas opções estão associadas à aprovação de actualizações como, por exemplo, definir prazos e desinstalar actualizações. |
 

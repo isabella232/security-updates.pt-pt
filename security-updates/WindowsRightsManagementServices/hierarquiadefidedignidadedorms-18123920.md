@@ -17,7 +17,7 @@ Para o RMS, a raiz da fidedignidade ou a "âncora de fidedignidade" é um par ch
 
 O seguinte diagrama apresenta a hierarquia fidedigna numa organização. A cadeia de fidedignidade vai até aos serviços da Microsoft que emitem os certificados de base.
 
-![](images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)
+![](/security-updates/images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)
 1.  Para cada computador cliente é emitido um cofre exclusivo que contém a chave pública raiz da Microsoft.
 2.  Quando recebe um pedido de licença, o RMS valida os principais seguindo o caminho da hierarquia de fidedignidade até à raiz de fidedignidade.
 3.  O RMS verifica a autenticidade da entidade fidedigna designada na licença.

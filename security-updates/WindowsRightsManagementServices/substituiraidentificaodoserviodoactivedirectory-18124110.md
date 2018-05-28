@@ -11,7 +11,7 @@ Substituir a Identificação do Serviço do Active Directory
 
 Os serviços e clientes do RMS detectam as localizações de serviços procurando primeiramente no registo local. Se determinadas chaves no registo não possuírem um valor, os serviços e clientes do RMS procuram o ponto de ligação do serviço (SCP) no Active Directory. Isto significa que é possível substituir a definição de detecção do Active Directory predefinida se introduzir determinadas chaves no servidor ou no registo do cliente.
 
-| ![](images/Cc747614.note(WS.10).gif)Nota                                                                                                                                    |
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Nota                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se o cluster de raiz do RMS estiver configurado de forma a que o SCP não seja publicado no Active Directory, pode utilizar estas chaves para direccionar os clientes do RMS para a localização correcta. |
 
@@ -76,7 +76,7 @@ Substituir a Detecção de Serviços do Lado do Cliente para Publicação
   
 Se os utilizadores vão publicar conteúdo dos seus computadores, poderá querer substituir as localizações dos servidores utilizados para publicação consoante a topologia utilizada na empresa. As localizações dos servidores utilizados para publicação são normalmente detectadas pelo cliente utilizando o Active Directory. Ao adicionar as chaves de registo adequadas nos computadores clientes, os clientes irão contornar esses métodos e, em alternativa, utilizar os URLs especificados no valor de entrada de registo.
   
-| ![](images/Cc747614.note(WS.10).gif)Nota                                                                                                                                |  
+| ![](/security-updates/images/Cc747614.note(WS.10).gif)Nota                                                                                                                                |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | As substituições de cliente listadas nestas secções devem ser criadas como chaves e não como entradas individuais. O valor para estas chaves deve ser criado na entrada predefinida para cada chave. |
   
@@ -133,7 +133,7 @@ A tabela seguinte lista as chaves de registo que podem ser adicionadas num compu
   
 Recomenda-se que implemente estas chaves de registo utilizando o Systems Management Server ou a Política de Grupo para se certificar de que todos os clientes na empresa utilizam os servidores de publicação correctos.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Atenção                                                                                                             |  
+| ![](/security-updates/images/Cc747614.Caution(WS.10).gif)Atenção                                                                                                             |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | A edição incorrecta do registo poderá danificar gravemente o sistema. Antes de efectuar alterações no registo, crie uma cópia de segurança de todos os dados importantes do computador. |
   

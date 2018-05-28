@@ -13,10 +13,10 @@ Durante a instalação, o RMS cria o RMS Service Group no computador local e con
 
 Pode alterar a conta de serviço do RMS a qualquer momento. Quando a conta é alterada, a conta anteriormente especificada é removida do RMS Service Group de forma automática, e a nova conta torna-se membro do grupo.
 
-| ![](images/Cc747736.Important(WS.10).gif)Importante                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc747736.Important(WS.10).gif)Importante                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Por questões de segurança, é altamente recomendável criar uma conta especial de utilizador para utilizar como conta de serviço do RMS, a qual não será utilizada para mais nenhum outro fim senão o de conta de serviço do RMS. Além disso, não deverá conceder a esta conta mais nenhuma permissão. |
 
-| ![](images/Cc747736.note(WS.10).gif)Nota                                                        |
+| ![](/security-updates/images/Cc747736.note(WS.10).gif)Nota                                                        |
 |------------------------------------------------------------------------------------------------------------------------------|
 | A conta de serviço do RMS não pode ser a mesma conta de domínio que foi utilizada para instalar o RMS com o Service Pack  1. |

@@ -13,7 +13,7 @@ O cliente RMS está incorporado no sistema operativo Windows Vista® pelo que o
 
 O processo de activação estabelece um cofre e um certificado de computador para o utilizador com sessão iniciada. A activação é um processo local que não requer uma ligação de rede. Quando a activação é efectuada com êxito, o primeiro pedido para uma licença de utilização por parte de uma aplicação activada pelo RMS obtém um certificado de utilizador. O cliente RMS pode ser instalado em cada computador cliente da organização utilizando a Política de Grupo, o Windows Update ou um script de administração.
 
-| ![](images/Cc720266.note(WS.10).gif)Nota                                                                                                                                                                                                                                     |
+| ![](/security-updates/images/Cc720266.note(WS.10).gif)Nota                                                                                                                                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Seja qual for o método de distribuição do software cliente, o cliente RMS utiliza uma porta, por predefinição a porta 80 ou 443, para comunicar com o servidor RMS. Certifique-se de que o computador cliente é capaz de efectuar pedidos de saída para a raiz e clusters apenas de licenciamento do RMS. |
 

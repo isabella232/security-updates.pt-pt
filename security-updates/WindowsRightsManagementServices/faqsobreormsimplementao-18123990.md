@@ -77,7 +77,7 @@ Para reverter uma instalação do RMS, efectue o seguinte procedimento.
 
 6.  Se os clientes do RMS estiverem a executar o Windows XP e Windows 2000, remova o cliente do RMS dos computadores clientes.
 
-| ![](images/Cc720274.Important(WS.10).gif)Importante                                                                                                                                                  |
+| ![](/security-updates/images/Cc720274.Important(WS.10).gif)Importante                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Assim que este procedimento estiver concluído, já não é possível abrir conteúdo protegido por direitos. Desactive primeiro o RMS antes de reverter uma instalação do RMS se o RMS for utilizado para proteger algum dado valioso. |
 

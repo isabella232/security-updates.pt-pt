@@ -19,6 +19,6 @@ Proceda de uma das seguintes formas:
 
 Se tiver de restaurar os dados do modelo de política de direitos que se encontram na base de dados de configuração, pode extrair as informações de GUID e de TemplateData da tabela DRMS\_RightsTemplate da cópia de segurança da base de dados de configuração, ou então importar simplesmente os dados a partir do ficheiro de texto. Para mais informações acerca da realização destas tarefas, consulte a documentação do SQL Server.
 
-| ![](images/Cc747625.note(WS.10).gif)Nota                                                                |
+| ![](/security-updates/images/Cc747625.note(WS.10).gif)Nota                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------|
 | Para definir um plano de execução de cópias de segurança de modelos de política de direitos, consulte o administrador do SQL Server. |

@@ -28,7 +28,7 @@ Por predefinição, o WSUS 3.0 SP2 está configurado para utilizar o Microsoft U
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ O Passo 3 contém os seguintes procedimentos:
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ Os dois procedimentos seguintes assumem que está a utilizar o snap-in Administr
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

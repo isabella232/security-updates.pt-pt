@@ -13,11 +13,11 @@ Para efectuar este procedimento, tem de iniciar sessão localmente no Web site A
 
 Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Aviso                                                         |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Aviso                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------|
 | Quando desactiva um servidor, este não pode ser restaurado para uma configuração padrão do RMS. Este procedimento é irreversível. |
 
-| ![](images/Cc747665.Warning(WS.10).gif)Aviso                                                                               |
+| ![](/security-updates/images/Cc747665.Warning(WS.10).gif)Aviso                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Depois de desactivar o RMS, este deve ser completamente removido através de Adicionar e Remover Programas antes de tentar instalar outra versão do RMS. |
 

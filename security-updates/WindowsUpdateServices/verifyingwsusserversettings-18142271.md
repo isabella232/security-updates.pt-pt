@@ -21,7 +21,7 @@ This section covers the following issues which affect update file synchronizatio
 -   IIS settings
 -   Permissions
 
-| ![](images/Cc708545.Important(WS.10).gif)Importante                                                                                                                                    |
+| ![](/security-updates/images/Cc708545.Important(WS.10).gif)Importante                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | These settings are configured during WSUS setup by default. They are listed here as a reference, to use as checkpoints when troubleshooting. When troubleshooting, you can verify that these settings are in place. |
 

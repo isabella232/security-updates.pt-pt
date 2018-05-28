@@ -13,6 +13,6 @@ Durante o aprovisionamento, o RMS cria a chave privada do RMS para o servidor. A
 
 Se o servidor for utilizado para proteger conteúdo, todos os proprietários de conteúdo devem ser notificados e o conteúdo publicado novamente através do servidor do RMS com a nova chave privada. Quaisquer cópias do conteúdo protegido pela chave privada comprometida devem ser destruídas pois não podem ser consideradas como tendo protecção adequada.
 
-| ![](images/Cc747765.Important(WS.10).gif)Importante                                                                                                                                                                                                               |
+| ![](/security-updates/images/Cc747765.Important(WS.10).gif)Importante                                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Independentemente de o servidor ter sido inscrito ou não com o Serviço de Inscrição da Microsoft, o servidor tem de repetir o processo de aprovisionamento para obter uma chave privada nova. Se tentar novamente reinscrever um servidor do RMS, a chave privada anterior do RMS é utilizada. |

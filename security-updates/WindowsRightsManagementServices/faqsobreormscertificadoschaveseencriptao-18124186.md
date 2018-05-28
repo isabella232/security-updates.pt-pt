@@ -79,11 +79,11 @@ Um sistema RMS utiliza os certificados e as licenças seguintes guardados em XrM
     Prefixo do nome do ficheiro: EUL
     Localização: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Nota                                                                                             |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Nota                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uma conta de utilizador tem um certificado de computador, um ficheiro GIC e um ficheiro CLC, mas vários ficheiros EUL para cada parte de conteúdo a que se acede. |
 
-| ![](images/Cc747725.note(WS.10).gif)Nota                                                |
+| ![](/security-updates/images/Cc747725.note(WS.10).gif)Nota                                                |
 |----------------------------------------------------------------------------------------------------------------------|
 | Para o cliente do RMS integrado com o Windows Vista®, a localização é %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
 

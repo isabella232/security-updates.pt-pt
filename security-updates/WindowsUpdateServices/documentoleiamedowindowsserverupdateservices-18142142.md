@@ -11,7 +11,7 @@ Documento Leia-me do Windows Server Update Services
 
 Este documento descreve questões conhecidas que afectam o Windows Server Update Services (WSUS). Inclui recomendações e requisitos de instalação para o WSUS.
 
-| ![](images/Cc720505.note(WS.10).gif)Nota                                                                                                                                                                         |
+| ![](/security-updates/images/Cc720505.note(WS.10).gif)Nota                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Existe uma cópia deste documento disponível para transferência no Centro de Transferências da Microsoft, em [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). Esta página poderá estar em inglês. |
 
@@ -200,7 +200,7 @@ Problemas conhecidos
 
 Se estiver a executar o IIS num computador com o Windows 2000 Server, instale a versão mais recente do IIS Lockdown Wizard (que inclui URLScan) a partir da página da ferramenta IIS Lockdown no Web site Microsoft TechNet. A Microsoft recomenda vivamente que instale esta ferramenta para ajudar a manter os servidores IIS seguros. O IIS Lockdown Wizard funciona desactivando funcionalidades do IIS desnecessárias, reduzindo assim a exposição ao risco de segurança.
 
-| ![](images/Cc720505.note(WS.10).gif)Nota                                                                                                                                                          |
+| ![](/security-updates/images/Cc720505.note(WS.10).gif)Nota                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | O Programa de Configuração do WSUS não instala estes componentes. Terá de os instalar manualmente. Não é necessário instalar o IIS Lockdown em computadores com o Windows Server 2003, pois a funcionalidade está incorporada. |
 

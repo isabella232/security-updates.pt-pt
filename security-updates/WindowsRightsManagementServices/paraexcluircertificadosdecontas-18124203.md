@@ -31,11 +31,11 @@ Excluir Certificados de Conta
     -   Para excluir certificados de contas por nome de utilizador, clique em **Nome de utilizador** para o certificado de conta a excluir, escreva o nome do utilizador a ser excluído (sob a forma *nome\_utilizador*@*nome\_domínio.com*) e, em seguida, clique em **Adicionar**. Utilize esta opção para excluir os certificados de contas de utilizadores internos que têm contas de utilizador do Active Directory.
     -   Para excluir um certificado de conta pela respectiva chave pública, clique em **Cadeia da chave pública** para o certificado de conta a excluir, escreva a respectiva cadeia da chave pública do certificado de conta e, em seguida, clique em **Adicionar**. Utilize esta opção para excluir os certificados de contas de utilizadores externos que não têm contas de utilizador do Active Directory.
 
-    | ![](images/Cc747785.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                             |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                             |
     |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Para eliminar um certificado de conta da lista de exclusões, clique no certificado de conta excluído na lista e, em seguida, clique em **Eliminar as chaves públicas seleccionadas da lista de exclusões**. O utilizador que possui esse certificado de conta poderá, então, obter uma licença para utilizar conteúdo protegido pelo RMS a partir deste servidor. |
 
-    | ![](images/Cc747785.note(WS.10).gif)Nota                       |
+    | ![](/security-updates/images/Cc747785.note(WS.10).gif)Nota                       |
     |---------------------------------------------------------------------------------------------|
     | Para desactivar a exclusão de certificados de contas de direitos, clique em **Desactivar**. |
 

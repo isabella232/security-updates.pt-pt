@@ -32,7 +32,7 @@ Renovar um Certificado de Licenciador de Servidores
 
 5.  Clique em **Guardar**. Aparece a caixa de diálogo **Guardar como**.
 
-    | ![](images/Cc747636.note(WS.10).gif)Nota                                                                                                                |
+    | ![](/security-updates/images/Cc747636.note(WS.10).gif)Nota                                                                                                                |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Na caixa de diálogo **Transferência de Ficheiros**, não clique em **Abrir**. Se clicar em **Abrir** aparece uma mensagem de erro e o ficheiro de pedido de inscrição não é guardado. |
 

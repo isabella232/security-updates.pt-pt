@@ -43,6 +43,6 @@ Em implementações com um só servidor nas quais a base de dados se encontra no
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                       |  
+| ![](/security-updates/images/Cc720178.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                       |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | A conta utilizada para iniciar sessão no servidor do RMS não requer membros adicionais de grupo de domínio, como o grupo Admins do domínio. No entanto, algumas tarefas administrativas específicas, como o registo do ponto de ligação do serviço e a modificação das políticas de segurança, exigem uma conta com privilégios adicionais. |

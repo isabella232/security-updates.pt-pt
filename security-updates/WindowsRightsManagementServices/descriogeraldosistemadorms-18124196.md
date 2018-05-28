@@ -93,6 +93,6 @@ O RMS utiliza os serviços de Inscrição e Activação alojados pela Microsoft 
 
 O diagrama seguinte ilustra os diversos componentes de um sistema do RMS e as respectivas funções no sistema. As setas representam pedidos e respostas a serem trocados entre os diferentes componentes.
 
-![](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
+![](/security-updates/images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
 
 Para mais informações sobre cada componente, consulte "[Componentes de Software do RMS](https://technet.microsoft.com/e38a840e-f390-48fd-8354-50108a64f5ca)" posteriormente nesta secção.

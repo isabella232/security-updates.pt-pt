@@ -38,6 +38,6 @@ A **Home page de Administração** apresenta informações sobre o cluster, tais
 
 Os restantes tópicos incluídos nesta secção descrevem a forma como estas funcionalidades podem ser utilizadas. Para obter instruções detalhadas, consulte “[RMS - Como ...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)” posteriormente nesta secção.
 
-| ![](images/Cc720290.note(WS.10).gif)Nota                                                                                                                                                                                                                                             |
+| ![](/security-updates/images/Cc720290.note(WS.10).gif)Nota                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | O Web site da Administração do RMS utiliza janelas de contexto para a configuração de algumas funcionalidades. Se estiver a utilizar um bloqueador de contexto no seu browser Web, deverá configurar as definições do browser para permitir que apareçam janelas de contexto do Web site da Administração do RMS. |

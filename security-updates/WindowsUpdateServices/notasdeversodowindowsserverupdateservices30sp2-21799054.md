@@ -62,7 +62,7 @@ Esta secção descreve os requisitos de software e de hardware necessários para
         </colgroup>
         <thead>
         <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Aviso</th>
+        <th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Warning(WS.10).gif" />Aviso</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ Esta secção descreve os requisitos de software e de hardware necessários para
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ A seguinte lista contém os requisitos mínimos de hardware necessários para um
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Quando instalar o WSUS 3.0 SP2, pode ter de desactivar programas antivírus ante
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Cuidado</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Caution(WS.10).gif" />Cuidado</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalação no modo silencioso utilizando 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="/security-updates/images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

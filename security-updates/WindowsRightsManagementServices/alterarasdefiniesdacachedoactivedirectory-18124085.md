@@ -79,10 +79,10 @@ A tabela seguinte mostra as entradas que controlam o comportamento da cache de m
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Atenção                                                                                                                  |  
+| ![](/security-updates/images/Cc747586.Caution(WS.10).gif)Atenção                                                                                                                  |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Uma edição incorrecta do registo pode danificar gravemente o sistema. Antes de proceder a alterações do registo, faça uma cópia de segurança dos dados importantes que guarda no computador. |
   
-| ![](images/Cc747586.note(WS.10).gif)Nota                                                                                                                                                                                                                                                        |  
+| ![](/security-updates/images/Cc747586.note(WS.10).gif)Nota                                                                                                                                                                                                                                                        |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | As entradas de registo **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** e **ContactMembersofGroupCacheExpireMinutes** também controlam a expiração da cache na cache do Active Directory local na base de dados de serviços de directório no servidor da base de dados. |

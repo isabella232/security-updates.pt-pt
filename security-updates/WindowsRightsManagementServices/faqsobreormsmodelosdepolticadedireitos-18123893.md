@@ -33,7 +33,7 @@ A localização dos modelos é determinada pela aplicação activada pelo RMS. P
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** para o Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Nota                                                                                                                                                                |
+| ![](/security-updates/images/Cc720175.note(WS.10).gif)Nota                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se esta entrada apontar para uma pasta local no cliente, os ficheiros dos modelos deverão ser copiados para o cliente. Se esta apontar para uma pasta partilhada na rede, não estará disponível quando o utilizador estiver offline. |
 

@@ -32,7 +32,7 @@ Excluir Aplicações ou Parar a Exclusão de Aplicações
 
     Para eliminar uma aplicação (ou componente) da lista de exclusões, seleccione o nome do ficheiro e, em seguida, clique em **Eliminar as aplicações seleccionadas da lista de exclusões**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                    |
+    | ![](/security-updates/images/Cc720262.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                    |
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | O RMS requer que especifique a versão da aplicação num formato de 4 dígitos delimitados por pontos (\#.\#.\#.\# ). No entanto, algumas aplicações especificam a respectiva versão através de um número de 2 ou 3 dígitos delimitado por pontos. Neste caso, deverá adicionar um .0 conforme adequado para corresponder o número da versão ao formato requerido pelo RMS. |
 

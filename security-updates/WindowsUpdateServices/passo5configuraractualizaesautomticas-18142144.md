@@ -51,7 +51,7 @@ Para poder ver definições de política para gerir o WSUS, será necessário ga
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Nota                                                                                                                 |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Nota                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A definição **Permitir ao administrador local escolher a definição** só aparece se o serviço Actualizações Automáticas se tiver auto-actualizado para a versão compatível com o WSUS. |
 
@@ -62,7 +62,7 @@ Para poder ver definições de política para gerir o WSUS, será necessário ga
 
 3.  Clique em **Activado**e escreva o URL de HTTP do mesmo servidor WSUS na caixa **Defina o serviço de actualização na intranet para detectar actualizações** e na caixa **Defina o servidor de estatísticas na intranet** . Por exemplo, escreva *http://nomeservidor* em ambas as caixas e, em seguida, clique em **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Nota                                                                                                                                                                                                                                      |
+| ![](/security-updates/images/Cc720532.note(WS.10).gif)Nota                                                                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se estiver a utilizar o objecto de Política de Grupo Local para apontar este computador para o WSUS, esta definição será aplicada de imediato e este computador deverá aparecer na consola administrativa WSUS pouco tempo depois. Pode acelerar este processo iniciando manualmente um ciclo de detecção. |
 

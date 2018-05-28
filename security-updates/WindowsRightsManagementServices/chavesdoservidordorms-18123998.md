@@ -26,7 +26,7 @@ Pode utilizar um CSP de duas formas diferentes:
     - ou -
 -   Utilize um CSP de software não-Microsoft instalado no servidor.
 
-| ![](images/Cc720280.note(WS.10).gif)Nota                                                                       |
+| ![](/security-updates/images/Cc720280.note(WS.10).gif)Nota                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------|
 | Se desejar utilizar um módulo de segurança por hardware, certifique-se de que escolhe um CSP que suporte módulos de segurança por hardware. |
 
