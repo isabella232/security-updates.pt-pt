@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Junho 2006
 ms:assetid: 'ms06-jun'
 ms:contentKeyID: 61235134
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms06-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

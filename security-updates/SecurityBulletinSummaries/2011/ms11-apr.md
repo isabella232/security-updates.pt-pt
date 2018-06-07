@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Abril de 2011
 ms:assetid: 'ms11-apr'
 ms:contentKeyID: 61235166
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

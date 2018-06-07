@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Abril 2006
 ms:assetid: 'ms06-apr'
 ms:contentKeyID: 61235130
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms06-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Setembro de 2011
 ms:assetid: 'ms11-sep-sum'
 ms:contentKeyID: 61235177
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-sep-sum(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

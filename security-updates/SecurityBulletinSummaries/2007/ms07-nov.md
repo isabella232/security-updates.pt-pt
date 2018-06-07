@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Novembro 2007
 ms:assetid: 'ms07-nov'
 ms:contentKeyID: 61235142
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms07-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

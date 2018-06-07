@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Julho 2011
 ms:assetid: 'ms11-jul'
 ms:contentKeyID: 61235171
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-jul(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

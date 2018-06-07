@@ -1,7 +1,7 @@
 - name: Security Updates
   href: index.md
   items:
-- name: Security Advisories
+- name: Comunicados de segurança
   href: ./SecurityAdvisories/securityadvisories.md
   items:
   - name: 2012
@@ -227,7 +227,7 @@
       href: ./SecurityAdvisories/2005/910550.md
     - name: 906267
       href: ./SecurityAdvisories/2005/906267.md
-- name: Security Bulletin Summaries
+- name: Resumos dos boletins de segurança
   href: ./SecurityBulletinSummaries/securitybulletinsummaries.md
   items:
   - name: 2012
@@ -357,7 +357,7 @@
       href: ./SecurityBulletinSummaries/2006/ms06-feb.md
     - name: ms06-apr
       href: ./SecurityBulletinSummaries/2006/ms06-apr.md
-- name: Security Bulletins
+- name: Boletins de segurança
   href: ./SecurityBulletins/securitybulletins.md
   items:
   - name: 2012

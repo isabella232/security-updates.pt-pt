@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Maio de 2012
 ms:assetid: 'ms12-may'
 ms:contentKeyID: 61235184
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms12-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

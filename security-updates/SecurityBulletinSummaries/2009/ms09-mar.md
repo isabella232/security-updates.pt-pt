@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Março 2009
 ms:assetid: 'ms09-mar'
 ms:contentKeyID: 61235151
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms09-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

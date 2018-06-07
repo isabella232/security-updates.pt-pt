@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Junho 2007
 ms:assetid: 'ms07-jun'
 ms:contentKeyID: 61235140
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms07-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

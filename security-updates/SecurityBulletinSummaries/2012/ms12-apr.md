@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Abril de 2012
 ms:assetid: 'ms12-apr'
 ms:contentKeyID: 61235179
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms12-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

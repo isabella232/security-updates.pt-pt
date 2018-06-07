@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Março 2008
 ms:assetid: 'ms08-mar'
 ms:contentKeyID: 61235146
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms08-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

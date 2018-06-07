@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Maio 2010
 ms:assetid: 'ms10-may'
 ms:contentKeyID: 61235161
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

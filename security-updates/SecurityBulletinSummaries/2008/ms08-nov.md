@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Novembro 2008
 ms:assetid: 'ms08-nov'
 ms:contentKeyID: 61235147
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms08-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

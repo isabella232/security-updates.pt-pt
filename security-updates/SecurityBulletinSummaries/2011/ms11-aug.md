@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Agosto de 2011
 ms:assetid: 'ms11-aug'
 ms:contentKeyID: 61235167
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

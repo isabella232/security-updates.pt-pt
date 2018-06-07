@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Julho 2009
 ms:assetid: 'ms09-jul'
 ms:contentKeyID: 61235149
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms09-jul(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

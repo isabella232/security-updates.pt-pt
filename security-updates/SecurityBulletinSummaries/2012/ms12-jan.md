@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Janeiro de 2012
 ms:assetid: 'ms12-jan'
 ms:contentKeyID: 61235181
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms12-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

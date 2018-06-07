@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Dezembro de 2011
 ms:assetid: 'ms11-dec'
 ms:contentKeyID: 61235168
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

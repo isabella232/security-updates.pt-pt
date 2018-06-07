@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Janeiro 2011
 ms:assetid: 'ms11-jan'
 ms:contentKeyID: 61235170
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
