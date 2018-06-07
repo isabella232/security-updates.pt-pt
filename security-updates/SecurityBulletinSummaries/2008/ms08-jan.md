@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Janeiro 2008
 ms:assetid: 'ms08-jan'
 ms:contentKeyID: 61235143
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms08-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Junho 2008
 ms:assetid: 'ms08-jun'
 ms:contentKeyID: 61235145
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms08-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

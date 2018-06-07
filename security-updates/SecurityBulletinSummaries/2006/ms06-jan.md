@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Janeiro 2006
 ms:assetid: 'ms06-jan'
 ms:contentKeyID: 61235132
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms06-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

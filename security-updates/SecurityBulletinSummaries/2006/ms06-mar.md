@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Março 2006
 ms:assetid: 'ms06-mar'
 ms:contentKeyID: 61235135
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms06-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

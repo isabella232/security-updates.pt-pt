@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Agosto 2010
 ms:assetid: 'ms10-aug'
 ms:contentKeyID: 61235154
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

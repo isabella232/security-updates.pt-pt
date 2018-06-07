@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Outubro de 2010
 ms:assetid: 'ms10-oct'
 ms:contentKeyID: 61235163
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

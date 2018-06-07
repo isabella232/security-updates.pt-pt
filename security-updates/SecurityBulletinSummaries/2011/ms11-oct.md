@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Outubro de 2011
 ms:assetid: 'ms11-oct'
 ms:contentKeyID: 61235176
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

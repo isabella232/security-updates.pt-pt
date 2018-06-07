@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Novembro 2009
 ms:assetid: 'ms09-nov'
 ms:contentKeyID: 61235152
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms09-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

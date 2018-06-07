@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Setembro de 2010
 ms:assetid: 'ms10-sep'
 ms:contentKeyID: 61235164
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

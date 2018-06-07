@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Fevereiro 2006
 ms:assetid: 'ms06-feb'
 ms:contentKeyID: 61235131
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms06-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

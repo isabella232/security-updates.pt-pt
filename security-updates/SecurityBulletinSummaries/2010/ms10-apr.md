@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Abril 2010
 ms:assetid: 'ms10-apr'
 ms:contentKeyID: 61235153
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

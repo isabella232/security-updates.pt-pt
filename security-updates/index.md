@@ -4,6 +4,8 @@ Title: Avisos e Boletins de Segurança
 ms:assetid: 'ac28e14e-994a-4fc5-bf4c-cf15bbde97fc'
 ms:contentKeyID: 62182047
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/Dn610807(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Modelo de documento MSRC pp

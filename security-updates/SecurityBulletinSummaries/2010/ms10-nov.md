@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Novembro 2010
 ms:assetid: 'ms10-nov'
 ms:contentKeyID: 61235162
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms10-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

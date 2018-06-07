@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Janeiro 2009
 ms:assetid: 'ms09-jan'
 ms:contentKeyID: 61235148
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms09-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

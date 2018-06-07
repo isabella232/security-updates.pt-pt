@@ -4,6 +4,8 @@ Title: Resumo dos Boletins de Segurança Microsoft de Maio 2011
 ms:assetid: 'ms11-may'
 ms:contentKeyID: 61235174
 ms:mtpsurl: 'https://technet.microsoft.com/pt-PT/library/ms11-may(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
